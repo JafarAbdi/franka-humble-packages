@@ -1,0 +1,51 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-humble-moveit-ros-occupancy-map-monitor
+Binary: ros-humble-moveit-ros-occupancy-map-monitor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2023.03.10.13.20
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-ros-occupancy-map-monitor - Components of MoveIt connecting to occupancy map
+Changes:
+ ros-humble-moveit-ros-occupancy-map-monitor (3.0.0-2023.03.10.13.20) jammy; urgency=high
+ .
+   * converted characters from string format to character format (#1881 <https://github.com/ros-planning/moveit2/issues/1881>)
+   * Switch to clang-format-14 (#1877 <https://github.com/ros-planning/moveit2/issues/1877>)
+     * Switch to clang-format-14
+     * Fix clang-format-14
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Enable -Wold-style-cast (#1770 <https://github.com/ros-planning/moveit2/issues/1770>)
+   * Remove MOVEIT_LIB_NAME (#1751 <https://github.com/ros-planning/moveit2/issues/1751>)
+     It's more readable and searchable if we just spell out the target
+     name.
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Used C++ style cast instead of C style cast  (#1628 <https://github.com/ros-planning/moveit2/issues/1628>)
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Fix clang-tidy issues (#1706 <https://github.com/ros-planning/moveit2/issues/1706>)
+     * Blindly apply automatic clang-tidy fixes
+     * Exemplarily cleanup a few automatic clang-tidy fixes
+     * Clang-tidy fixups
+     * Missed const-ref fixups
+     * Fix unsupported non-const -> const
+     * More fixes
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Contributors: Abhijeet Das Gupta, Chris Thrasher, Christian Henkel, Cory Crean, Henning Kayser, Robert Haschke, Sameer Gupta
+Checksums-Sha1:
+ 26656217a1cd97d2919955b08a7a647073e7f760 4630220 ros-humble-moveit-ros-occupancy-map-monitor-dbgsym_3.0.0-2023.03.10.13.20_amd64.ddeb
+ 233775175d24334cbdab2563c2954fd8e1276e4f 26978 ros-humble-moveit-ros-occupancy-map-monitor_3.0.0-2023.03.10.13.20_amd64.buildinfo
+ be20f05b6226c6adebe6382a92256fe5309e1a19 242528 ros-humble-moveit-ros-occupancy-map-monitor_3.0.0-2023.03.10.13.20_amd64.deb
+Checksums-Sha256:
+ 1ca53860340fd0850def87374345531f5cecf396649c0f11392f82829f3a63ee 4630220 ros-humble-moveit-ros-occupancy-map-monitor-dbgsym_3.0.0-2023.03.10.13.20_amd64.ddeb
+ 6db2c9c2207e4abb26f2f625532b71c31cb31e9611f37cb81154c85d2065602a 26978 ros-humble-moveit-ros-occupancy-map-monitor_3.0.0-2023.03.10.13.20_amd64.buildinfo
+ f11fe8cae0348223d09e69ca65f04d5aea78e78f083b6131ac3e4e7ec854c417 242528 ros-humble-moveit-ros-occupancy-map-monitor_3.0.0-2023.03.10.13.20_amd64.deb
+Files:
+ 6cd5f2e937060c8b6bdbc9d9483993f2 4630220 debug optional ros-humble-moveit-ros-occupancy-map-monitor-dbgsym_3.0.0-2023.03.10.13.20_amd64.ddeb
+ 875a2790df95d5ab5d7eec2398fb37ff 26978 misc optional ros-humble-moveit-ros-occupancy-map-monitor_3.0.0-2023.03.10.13.20_amd64.buildinfo
+ 67e65768ad87b0088becec2c5dd02938 242528 misc optional ros-humble-moveit-ros-occupancy-map-monitor_3.0.0-2023.03.10.13.20_amd64.deb

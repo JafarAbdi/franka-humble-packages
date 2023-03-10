@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-humble-moveit-ros-visualization
+Binary: ros-humble-moveit-ros-visualization
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2023.03.10.14.14
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-ros-visualization - Components of MoveIt that offer visualization
+Changes:
+ ros-humble-moveit-ros-visualization (3.0.0-2023.03.10.14.14) jammy; urgency=high
+ .
+   * converted characters from string format to character format (#1881 <https://github.com/ros-planning/moveit2/issues/1881>)
+   * Delete unported moveit_joy visualization demo (#1541 <https://github.com/ros-planning/moveit2/issues/1541>)
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Minimize use of this-> (#1784 <https://github.com/ros-planning/moveit2/issues/1784>)
+     It's often unnecessary. MoveIt already avoids this in most cases
+     so this PR better cements that existing pattern.
+   * Enable -Wold-style-cast (#1770 <https://github.com/ros-planning/moveit2/issues/1770>)
+   * Migrate to Ogre.h (#1764 <https://github.com/ros-planning/moveit2/issues/1764>)
+     * Migrate to Ogre.h
+     * Remove includ for OgreQuaternion.h, included in Ogre.h
+   * Remove MOVEIT_LIB_NAME (#1751 <https://github.com/ros-planning/moveit2/issues/1751>)
+     It's more readable and searchable if we just spell out the target
+     name.
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Use <> for non-local headers (#1734 <https://github.com/ros-planning/moveit2/issues/1734>)
+     Unless a header lives in the same or a child directory of the file
+     including it, it's recommended to use <> for the #include statement.
+     For more information, see the C++ Core Guidelines item SF.12
+     https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#sf12-prefer-the-quoted-form-of-include-for-files-relative-to-the-including-file-and-the-angle-bracket-form-everywhere-else
+   * Fix clang-tidy issues (#1706 <https://github.com/ros-planning/moveit2/issues/1706>)
+     * Blindly apply automatic clang-tidy fixes
+     * Exemplarily cleanup a few automatic clang-tidy fixes
+     * Clang-tidy fixups
+     * Missed const-ref fixups
+     * Fix unsupported non-const -> const
+     * More fixes
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Contributors: AndyZe, Chris Thrasher, Christian Henkel, Cory Crean, Robert Haschke, Sameer Gupta, Stephanie Eng
+Checksums-Sha1:
+ e4426479e012c2f6aab31042d9ff79151ae85be5 41703118 ros-humble-moveit-ros-visualization-dbgsym_3.0.0-2023.03.10.14.14_amd64.ddeb
+ 0362b22e9e471da0a3bce8a24daecc19baaacc9e 33802 ros-humble-moveit-ros-visualization_3.0.0-2023.03.10.14.14_amd64.buildinfo
+ 49eb11f4ca57696229861f61337231eb9e3cdd61 714414 ros-humble-moveit-ros-visualization_3.0.0-2023.03.10.14.14_amd64.deb
+Checksums-Sha256:
+ eb116937e84ab8a3c51ff4f333082a8bfd67315869c42d0d899677033636188c 41703118 ros-humble-moveit-ros-visualization-dbgsym_3.0.0-2023.03.10.14.14_amd64.ddeb
+ b31689954fadfcf87e810b640e9041060bbbc929e04d408e6e6136cbc1161dee 33802 ros-humble-moveit-ros-visualization_3.0.0-2023.03.10.14.14_amd64.buildinfo
+ db003f42583a32ff433cfa79e46fd10588ffaaeb4431ec73307c2e326a195b21 714414 ros-humble-moveit-ros-visualization_3.0.0-2023.03.10.14.14_amd64.deb
+Files:
+ 696ef9765c344f677973d5a703213261 41703118 debug optional ros-humble-moveit-ros-visualization-dbgsym_3.0.0-2023.03.10.14.14_amd64.ddeb
+ 5feddfdaab8c14610e09fb198efc7590 33802 misc optional ros-humble-moveit-ros-visualization_3.0.0-2023.03.10.14.14_amd64.buildinfo
+ d13f534c040bb1523aae050d3d56dfcc 714414 misc optional ros-humble-moveit-ros-visualization_3.0.0-2023.03.10.14.14_amd64.deb

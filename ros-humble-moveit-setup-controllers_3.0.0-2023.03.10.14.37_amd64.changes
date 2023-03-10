@@ -1,0 +1,51 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-humble-moveit-setup-controllers
+Binary: ros-humble-moveit-setup-controllers
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2023.03.10.14.37
+Distribution: jammy
+Urgency: high
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Changed-By: David V. Lu!! <davidvlu@gmail.com>
+Description:
+ ros-humble-moveit-setup-controllers - MoveIt Setup Steps for ROS 2 Control
+Changes:
+ ros-humble-moveit-setup-controllers (3.0.0-2023.03.10.14.37) jammy; urgency=high
+ .
+   * Merge PR #1712 <https://github.com/ros-planning/moveit2/issues/1712>: fix clang compiler warnings + stricter CI
+   * Add default constructors
+     ... as they are not implicitly declared anymore
+   * Add default copy/move constructors/assignment operators
+     As a user-declared destructor deletes any implicitly-defined move constructor/assignment operator,
+     we need to declared them manually. This in turn requires to declare the copy constructor/assignment as well.
+   * Fix -Wdelete-non-abstract-non-virtual-dtor
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Minimize use of this-> (#1784 <https://github.com/ros-planning/moveit2/issues/1784>)
+     It's often unnecessary. MoveIt already avoids this in most cases
+     so this PR better cements that existing pattern.
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Fix clang-tidy issues (#1706 <https://github.com/ros-planning/moveit2/issues/1706>)
+     * Blindly apply automatic clang-tidy fixes
+     * Exemplarily cleanup a few automatic clang-tidy fixes
+     * Clang-tidy fixups
+     * Missed const-ref fixups
+     * Fix unsupported non-const -> const
+     * More fixes
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Contributors: Chris Thrasher, Christian Henkel, Cory Crean, Robert Haschke
+Checksums-Sha1:
+ db6c95c54c3fdab59bf31f1b7a2c1e17bc774ea3 11612244 ros-humble-moveit-setup-controllers-dbgsym_3.0.0-2023.03.10.14.37_amd64.ddeb
+ 61de39b96022d9fb3b8a97858a17550ec4000038 34608 ros-humble-moveit-setup-controllers_3.0.0-2023.03.10.14.37_amd64.buildinfo
+ 3ae3bc74e7b15de8cc74c46ac816d5deaec53f60 160248 ros-humble-moveit-setup-controllers_3.0.0-2023.03.10.14.37_amd64.deb
+Checksums-Sha256:
+ 893a3d27506b07ae2a17c75449f03594407469eb842c75b3eb1286a7b03807b9 11612244 ros-humble-moveit-setup-controllers-dbgsym_3.0.0-2023.03.10.14.37_amd64.ddeb
+ abf6edd8e870ef88b8966aa067f7a1f8afc5668630426f9f2bd394f41ab79a99 34608 ros-humble-moveit-setup-controllers_3.0.0-2023.03.10.14.37_amd64.buildinfo
+ 0bda795c74548d7276c9cd9f854de86053b15c504724d9c742c95861814c6ea1 160248 ros-humble-moveit-setup-controllers_3.0.0-2023.03.10.14.37_amd64.deb
+Files:
+ ba65856cfd30237b1ccc71ed7570c899 11612244 debug optional ros-humble-moveit-setup-controllers-dbgsym_3.0.0-2023.03.10.14.37_amd64.ddeb
+ bec7eeae4c01e504c7fd21721c687b20 34608 misc optional ros-humble-moveit-setup-controllers_3.0.0-2023.03.10.14.37_amd64.buildinfo
+ 419069460b4cea67dcf935a19c2e7a3e 160248 misc optional ros-humble-moveit-setup-controllers_3.0.0-2023.03.10.14.37_amd64.deb

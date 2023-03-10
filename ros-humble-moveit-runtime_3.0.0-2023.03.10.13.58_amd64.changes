@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-humble-moveit-runtime
+Binary: ros-humble-moveit-runtime
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2023.03.10.13.58
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-runtime - moveit_runtime meta package contains MoveIt packages that are ess
+Changes:
+ ros-humble-moveit-runtime (3.0.0-2023.03.10.13.58) jammy; urgency=high
+ .
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Contributors: Christian Henkel
+Checksums-Sha1:
+ 6fc12a2091ea783a564d3a68d6e2e48931da9164 10784 ros-humble-moveit-runtime_3.0.0-2023.03.10.13.58_amd64.buildinfo
+ 60e8eda439791df4f28ea79ad64bdfb2f12be136 6280 ros-humble-moveit-runtime_3.0.0-2023.03.10.13.58_amd64.deb
+Checksums-Sha256:
+ b51d79051cd00f8435eac8bb1f98ee4729b912c2c8c2061348071b97e9cb070c 10784 ros-humble-moveit-runtime_3.0.0-2023.03.10.13.58_amd64.buildinfo
+ a6e96e2cb5c94ab5846a1140ce0bda737a9526a85c0afb8e1271a49f0bd5bf1f 6280 ros-humble-moveit-runtime_3.0.0-2023.03.10.13.58_amd64.deb
+Files:
+ 1a41758436d90a447af089122663e9ce 10784 misc optional ros-humble-moveit-runtime_3.0.0-2023.03.10.13.58_amd64.buildinfo
+ 048d320d494376d6774b1cb2983b750b 6280 misc optional ros-humble-moveit-runtime_3.0.0-2023.03.10.13.58_amd64.deb

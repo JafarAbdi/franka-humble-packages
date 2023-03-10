@@ -1,0 +1,56 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-humble-moveit-setup-framework
+Binary: ros-humble-moveit-setup-framework
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2023.03.10.14.31
+Distribution: jammy
+Urgency: high
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Changed-By: David V. Lu!! <davidvlu@gmail.com>
+Description:
+ ros-humble-moveit-setup-framework - C++ Interface for defining setup steps for MoveIt Setup Assistant
+Changes:
+ ros-humble-moveit-setup-framework (3.0.0-2023.03.10.14.31) jammy; urgency=high
+ .
+   * Merge PR #1712 <https://github.com/ros-planning/moveit2/issues/1712>: fix clang compiler warnings + stricter CI
+   * Add default constructors
+     ... as they are not implicitly declared anymore
+   * Add default copy/move constructors/assignment operators
+     As a user-declared destructor deletes any implicitly-defined move constructor/assignment operator,
+     we need to declared them manually. This in turn requires to declare the copy constructor/assignment as well.
+   * Fix -Wdelete-non-abstract-non-virtual-dtor
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Minimize use of this-> (#1784 <https://github.com/ros-planning/moveit2/issues/1784>)
+     It's often unnecessary. MoveIt already avoids this in most cases
+     so this PR better cements that existing pattern.
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Use <> for non-local headers (#1734 <https://github.com/ros-planning/moveit2/issues/1734>)
+     Unless a header lives in the same or a child directory of the file
+     including it, it's recommended to use <> for the #include statement.
+     For more information, see the C++ Core Guidelines item SF.12
+     https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#sf12-prefer-the-quoted-form-of-include-for-files-relative-to-the-including-file-and-the-angle-bracket-form-everywhere-else
+   * Fix clang-tidy issues (#1706 <https://github.com/ros-planning/moveit2/issues/1706>)
+     * Blindly apply automatic clang-tidy fixes
+     * Exemplarily cleanup a few automatic clang-tidy fixes
+     * Clang-tidy fixups
+     * Missed const-ref fixups
+     * Fix unsupported non-const -> const
+     * More fixes
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Contributors: Chris Thrasher, Christian Henkel, Cory Crean, Robert Haschke
+Checksums-Sha1:
+ c000a9e1a199c67978f98d3e14b1a1f31c279934 6817864 ros-humble-moveit-setup-framework-dbgsym_3.0.0-2023.03.10.14.31_amd64.ddeb
+ f406a26c8d44be76d7a288bdc75ebf5b18b9d919 32769 ros-humble-moveit-setup-framework_3.0.0-2023.03.10.14.31_amd64.buildinfo
+ 605748b8421bf46533768d20f8a80ee99c1bee16 186140 ros-humble-moveit-setup-framework_3.0.0-2023.03.10.14.31_amd64.deb
+Checksums-Sha256:
+ 53c9ed853b236e9c9377aed4981f870458c41c6abc787c14ab3054b7edd6f7c8 6817864 ros-humble-moveit-setup-framework-dbgsym_3.0.0-2023.03.10.14.31_amd64.ddeb
+ 192413ee7a8ef9c95acebe8ed4b25edaca729d5e868ef19e91e7cedb20c6c9df 32769 ros-humble-moveit-setup-framework_3.0.0-2023.03.10.14.31_amd64.buildinfo
+ 4c52b74a57ef162b3908b183c2968b6f2c8d18ca8f89aca98bd2bf2fe5900864 186140 ros-humble-moveit-setup-framework_3.0.0-2023.03.10.14.31_amd64.deb
+Files:
+ b78ca9207d66188e73ff0dd7676d0b86 6817864 debug optional ros-humble-moveit-setup-framework-dbgsym_3.0.0-2023.03.10.14.31_amd64.ddeb
+ 3fbfe092c62fa7596e19d7f1de994e52 32769 misc optional ros-humble-moveit-setup-framework_3.0.0-2023.03.10.14.31_amd64.buildinfo
+ 24783423d2f8eca9b4698a62c01cef60 186140 misc optional ros-humble-moveit-setup-framework_3.0.0-2023.03.10.14.31_amd64.deb

@@ -1,0 +1,56 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-humble-moveit-ros-perception
+Binary: ros-humble-moveit-ros-perception
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2023.03.10.13.46
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-ros-perception - Components of MoveIt connecting to perception
+Changes:
+ ros-humble-moveit-ros-perception (3.0.0-2023.03.10.13.46) jammy; urgency=high
+ .
+   * converted characters from string format to character format (#1881 <https://github.com/ros-planning/moveit2/issues/1881>)
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Enable -Wold-style-cast (#1770 <https://github.com/ros-planning/moveit2/issues/1770>)
+   * Use sensor data QOS profile for sensor_msgs::Image and sensor_msgs::PointCloud (#664 <https://github.com/ros-planning/moveit2/issues/664>)
+     Co-authored-by: Henry Moore <mailto:henrygerardmoore@gmail.com>
+     Co-authored-by: Tyler Weaver <mailto:tyler@picknik.ai>
+   * Remove MOVEIT_LIB_NAME (#1751 <https://github.com/ros-planning/moveit2/issues/1751>)
+     It's more readable and searchable if we just spell out the target
+     name.
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Use <> for non-local headers (#1734 <https://github.com/ros-planning/moveit2/issues/1734>)
+     Unless a header lives in the same or a child directory of the file
+     including it, it's recommended to use <> for the #include statement.
+     For more information, see the C++ Core Guidelines item SF.12
+     https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#sf12-prefer-the-quoted-form-of-include-for-files-relative-to-the-including-file-and-the-angle-bracket-form-everywhere-else
+   * Used C++ style cast instead of C style cast  (#1628 <https://github.com/ros-planning/moveit2/issues/1628>)
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Fix clang-tidy issues (#1706 <https://github.com/ros-planning/moveit2/issues/1706>)
+     * Blindly apply automatic clang-tidy fixes
+     * Exemplarily cleanup a few automatic clang-tidy fixes
+     * Clang-tidy fixups
+     * Missed const-ref fixups
+     * Fix unsupported non-const -> const
+     * More fixes
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Contributors: Abhijeet Das Gupta, Chris Thrasher, Christian Henkel, Cory Crean, Nathan Brooks, Robert Haschke, Sameer Gupta
+Checksums-Sha1:
+ bc4332ffd44fe28c00fdacdbfda69ec924fe2e0b 9522706 ros-humble-moveit-ros-perception-dbgsym_3.0.0-2023.03.10.13.46_amd64.ddeb
+ 668e280f747f6c2189db82763733df43b12be14c 39023 ros-humble-moveit-ros-perception_3.0.0-2023.03.10.13.46_amd64.buildinfo
+ d14bf24b7999b9af1df3a00671fc6f679e0a8d92 333254 ros-humble-moveit-ros-perception_3.0.0-2023.03.10.13.46_amd64.deb
+Checksums-Sha256:
+ f5d0e2236008903f746816ab2bc2569071830148a0be8a76f3c7c88fb8de71e4 9522706 ros-humble-moveit-ros-perception-dbgsym_3.0.0-2023.03.10.13.46_amd64.ddeb
+ 140c7c4a06f5d539a82475faf6201f13a0d5eae3756d9d92b5bbe1f9ae984a43 39023 ros-humble-moveit-ros-perception_3.0.0-2023.03.10.13.46_amd64.buildinfo
+ c35074c1b937d9ec86142e2e4d8c68aa2fb55ab4d2fc1e7f3e545d6c6b376f96 333254 ros-humble-moveit-ros-perception_3.0.0-2023.03.10.13.46_amd64.deb
+Files:
+ ffbf5dac5f9c91eb47c78327f6e9473a 9522706 debug optional ros-humble-moveit-ros-perception-dbgsym_3.0.0-2023.03.10.13.46_amd64.ddeb
+ f073def5befabef3678f125140ca6caf 39023 misc optional ros-humble-moveit-ros-perception_3.0.0-2023.03.10.13.46_amd64.buildinfo
+ e61c5acbb30d8e991cb6cdaf3c4ac57b 333254 misc optional ros-humble-moveit-ros-perception_3.0.0-2023.03.10.13.46_amd64.deb

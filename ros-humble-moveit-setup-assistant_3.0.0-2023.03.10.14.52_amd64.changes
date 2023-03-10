@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-humble-moveit-setup-assistant
+Binary: ros-humble-moveit-setup-assistant
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2023.03.10.14.52
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-setup-assistant - Generates a configuration package that makes it easy to use MoveI
+Changes:
+ ros-humble-moveit-setup-assistant (3.0.0-2023.03.10.14.52) jammy; urgency=high
+ .
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Minimize use of this-> (#1784 <https://github.com/ros-planning/moveit2/issues/1784>)
+     It's often unnecessary. MoveIt already avoids this in most cases
+     so this PR better cements that existing pattern.
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Use <> for non-local headers (#1734 <https://github.com/ros-planning/moveit2/issues/1734>)
+     Unless a header lives in the same or a child directory of the file
+     including it, it's recommended to use <> for the #include statement.
+     For more information, see the C++ Core Guidelines item SF.12
+     https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#sf12-prefer-the-quoted-form-of-include-for-files-relative-to-the-including-file-and-the-angle-bracket-form-everywhere-else
+   * Fix clang-tidy issues (#1706 <https://github.com/ros-planning/moveit2/issues/1706>)
+     * Blindly apply automatic clang-tidy fixes
+     * Exemplarily cleanup a few automatic clang-tidy fixes
+     * Clang-tidy fixups
+     * Missed const-ref fixups
+     * Fix unsupported non-const -> const
+     * More fixes
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Contributors: Chris Thrasher, Christian Henkel, Cory Crean, Robert Haschke
+Checksums-Sha1:
+ bcc1646afdaf5df5168ae7861edfc251c89e879a 7376582 ros-humble-moveit-setup-assistant-dbgsym_3.0.0-2023.03.10.14.52_amd64.ddeb
+ 138fbc7dd33bdd1fe96545e089510d3b70e41974 34185 ros-humble-moveit-setup-assistant_3.0.0-2023.03.10.14.52_amd64.buildinfo
+ 96ce38c47909176ed760959d79b3c36fd8d31f39 291912 ros-humble-moveit-setup-assistant_3.0.0-2023.03.10.14.52_amd64.deb
+Checksums-Sha256:
+ b7dbe42b23d859e3cd5e3cb2f387cf518d6d0680aa5ec9e1ac52d08a79f23412 7376582 ros-humble-moveit-setup-assistant-dbgsym_3.0.0-2023.03.10.14.52_amd64.ddeb
+ 3f6efde8ff577acf48327f56e756db44dfdacc1cca92c2642dd3d68c634ee838 34185 ros-humble-moveit-setup-assistant_3.0.0-2023.03.10.14.52_amd64.buildinfo
+ 968eaafe7029bc59e4275c2dc9b7285a3ce950fd041bc80db5ba06a88db7dff6 291912 ros-humble-moveit-setup-assistant_3.0.0-2023.03.10.14.52_amd64.deb
+Files:
+ e786e290a7b9e4019bbf616b17bad1ef 7376582 debug optional ros-humble-moveit-setup-assistant-dbgsym_3.0.0-2023.03.10.14.52_amd64.ddeb
+ d286559968a5f1a68fd41d4cbbff99f7 34185 misc optional ros-humble-moveit-setup-assistant_3.0.0-2023.03.10.14.52_amd64.buildinfo
+ 8f3037288e76b6de1e7f1e8c7dfaca88 291912 misc optional ros-humble-moveit-setup-assistant_3.0.0-2023.03.10.14.52_amd64.deb

@@ -1,0 +1,54 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-humble-moveit-kinematics
+Binary: ros-humble-moveit-kinematics
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2023.03.10.13.32
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-kinematics - Package for all inverse kinematics solvers in MoveIt
+Changes:
+ ros-humble-moveit-kinematics (3.0.0-2023.03.10.13.32) jammy; urgency=high
+ .
+   * Merge PR #1712 <https://github.com/ros-planning/moveit2/issues/1712>: fix clang compiler warnings + stricter CI
+   * converted characters from string format to character format (#1881 <https://github.com/ros-planning/moveit2/issues/1881>)
+   * Add noexcept specifier to constructors
+   * Add default copy/move constructors/assignment operators
+     As a user-declared destructor deletes any implicitly-defined move constructor/assignment operator,
+     we need to declared them manually. This in turn requires to declare the copy constructor/assignment as well.
+   * Fix IKFAST_TEST (#1850 <https://github.com/ros-planning/moveit2/issues/1850>)
+   * Change log level of CHOMP runtime output and change kdl print (#1818 <https://github.com/ros-planning/moveit2/issues/1818>)
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Minimize use of this-> (#1784 <https://github.com/ros-planning/moveit2/issues/1784>)
+     It's often unnecessary. MoveIt already avoids this in most cases
+     so this PR better cements that existing pattern.
+   * Enable -Wold-style-cast (#1770 <https://github.com/ros-planning/moveit2/issues/1770>)
+   * Remove MOVEIT_LIB_NAME (#1751 <https://github.com/ros-planning/moveit2/issues/1751>)
+     It's more readable and searchable if we just spell out the target
+     name.
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Used C++ style cast instead of C style cast  (#1628 <https://github.com/ros-planning/moveit2/issues/1628>)
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Use a stronger source of randomness (#1721 <https://github.com/ros-planning/moveit2/issues/1721>)
+     * Remove use of deprecated std::random_shuffle
+     * Replace random number generators with rsl::rng
+     * Utilize rsl::uniform_real
+   * Contributors: Abhijeet Das Gupta, Chris Thrasher, Christian Henkel, Cory Crean, Robert Haschke, Sameer Gupta, Sebastian Jahr
+Checksums-Sha1:
+ bf904a8f431ce308be897823ff4aa7f641a5c75f 17576020 ros-humble-moveit-kinematics-dbgsym_3.0.0-2023.03.10.13.32_amd64.ddeb
+ 788e5f2ba2681b049981af4ae110d2802464730e 32939 ros-humble-moveit-kinematics_3.0.0-2023.03.10.13.32_amd64.buildinfo
+ 4e91d14a6a5b84926b302942bd9b82ce934739f6 490634 ros-humble-moveit-kinematics_3.0.0-2023.03.10.13.32_amd64.deb
+Checksums-Sha256:
+ cf403bd2ec0a86b59630d290f81685ebd7f1e3c05f4b5d37783dd505bffaf9bc 17576020 ros-humble-moveit-kinematics-dbgsym_3.0.0-2023.03.10.13.32_amd64.ddeb
+ eda5ffeea53b5c85919242027995b3d8c7b72b6e8e1f0b7f75b9949008b7b529 32939 ros-humble-moveit-kinematics_3.0.0-2023.03.10.13.32_amd64.buildinfo
+ aa1cd15d4596ebc996d2d6417fdc6f84589dca69b277d9db2a99cf5397f17a28 490634 ros-humble-moveit-kinematics_3.0.0-2023.03.10.13.32_amd64.deb
+Files:
+ faae056d3bf9657e4cc65a15a6264830 17576020 debug optional ros-humble-moveit-kinematics-dbgsym_3.0.0-2023.03.10.13.32_amd64.ddeb
+ 51146769485418592dbcb2a3f6bbc5d8 32939 misc optional ros-humble-moveit-kinematics_3.0.0-2023.03.10.13.32_amd64.buildinfo
+ bb7c582692a057d7124826ee7e7fd36c 490634 misc optional ros-humble-moveit-kinematics_3.0.0-2023.03.10.13.32_amd64.deb

@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-humble-moveit-planners
+Binary: ros-humble-moveit-planners
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2023.03.10.13.12
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-planners - Meta package that installs all available planners for MoveIt
+Changes:
+ ros-humble-moveit-planners (3.0.0-2023.03.10.13.12) jammy; urgency=high
+ .
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Contributors: Christian Henkel
+Checksums-Sha1:
+ 6bad4c431b80535e67b387191ab4140709278fdb 10789 ros-humble-moveit-planners_3.0.0-2023.03.10.13.12_amd64.buildinfo
+ d9fc29f2df43b71b4636f528689cf1c107833801 6182 ros-humble-moveit-planners_3.0.0-2023.03.10.13.12_amd64.deb
+Checksums-Sha256:
+ 35ddb94c6c6b0d149652689d8cfb9d46655fd416bc737cc8054c607615643666 10789 ros-humble-moveit-planners_3.0.0-2023.03.10.13.12_amd64.buildinfo
+ a318afd05a00396f365fc78fed80360ba8138f256213a10aee1629ba75cc1ddc 6182 ros-humble-moveit-planners_3.0.0-2023.03.10.13.12_amd64.deb
+Files:
+ 084700d67c9b1059ca11151026fe43c8 10789 misc optional ros-humble-moveit-planners_3.0.0-2023.03.10.13.12_amd64.buildinfo
+ 8c870969bfb6c463cda3db7f8f7fad9f 6182 misc optional ros-humble-moveit-planners_3.0.0-2023.03.10.13.12_amd64.deb

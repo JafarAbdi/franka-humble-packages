@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-humble-moveit-setup-app-plugins
+Binary: ros-humble-moveit-setup-app-plugins
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2023.03.10.14.34
+Distribution: jammy
+Urgency: high
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Changed-By: David V. Lu!! <davidvlu@gmail.com>
+Description:
+ ros-humble-moveit-setup-app-plugins - Various specialty plugins for MoveIt Setup Assistant
+Changes:
+ ros-humble-moveit-setup-app-plugins (3.0.0-2023.03.10.14.34) jammy; urgency=high
+ .
+   * Merge PR #1712 <https://github.com/ros-planning/moveit2/issues/1712>: fix clang compiler warnings + stricter CI
+   * Declare selected classes as final
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Minimize use of this-> (#1784 <https://github.com/ros-planning/moveit2/issues/1784>)
+     It's often unnecessary. MoveIt already avoids this in most cases
+     so this PR better cements that existing pattern.
+   * Contributors: Chris Thrasher, Christian Henkel, Robert Haschke
+Checksums-Sha1:
+ 6fca20c45c22aad84975f8e3a6fb001d02ba7142 3657362 ros-humble-moveit-setup-app-plugins-dbgsym_3.0.0-2023.03.10.14.34_amd64.ddeb
+ fad6fd7ed2f4cb650018ec2e00936d80e95e421f 33203 ros-humble-moveit-setup-app-plugins_3.0.0-2023.03.10.14.34_amd64.buildinfo
+ fd42f18bdccbd143706c78efb82000fad565dcf9 69260 ros-humble-moveit-setup-app-plugins_3.0.0-2023.03.10.14.34_amd64.deb
+Checksums-Sha256:
+ e60cdcb5fa8e143f343eadbc97c638864aa7a326826b92982c847a988adc8f2e 3657362 ros-humble-moveit-setup-app-plugins-dbgsym_3.0.0-2023.03.10.14.34_amd64.ddeb
+ 5673a003cfd1cc2f4fd36fed862deb67ec4c25d70797adf8a088df00f04e8210 33203 ros-humble-moveit-setup-app-plugins_3.0.0-2023.03.10.14.34_amd64.buildinfo
+ 99dbf65adea4ab75ea023ca5d0a28fce34c77f1d011eee5cbfc8e594cddc6796 69260 ros-humble-moveit-setup-app-plugins_3.0.0-2023.03.10.14.34_amd64.deb
+Files:
+ 6a8303c4259f59af6399bff8e9fe4afe 3657362 debug optional ros-humble-moveit-setup-app-plugins-dbgsym_3.0.0-2023.03.10.14.34_amd64.ddeb
+ 5684f51e18370b245f4b283b493caec8 33203 misc optional ros-humble-moveit-setup-app-plugins_3.0.0-2023.03.10.14.34_amd64.buildinfo
+ 760e39b6bee166c4daf2efcde20f9cc3 69260 misc optional ros-humble-moveit-setup-app-plugins_3.0.0-2023.03.10.14.34_amd64.deb

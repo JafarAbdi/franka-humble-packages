@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-humble-moveit-resources-prbt-moveit-config
+Binary: ros-humble-moveit-resources-prbt-moveit-config
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2023.03.10.13.17
+Distribution: jammy
+Urgency: high
+Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Changed-By: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Description:
+ ros-humble-moveit-resources-prbt-moveit-config - MoveIt Resources for testing: Pilz PRBT 6 A project-internal conf
+Changes:
+ ros-humble-moveit-resources-prbt-moveit-config (3.0.0-2023.03.10.13.17) jammy; urgency=high
+ .
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Contributors: Christian Henkel
+Checksums-Sha1:
+ df9e516195754e4c7ac4bce22aaa8a62d3d484d8 9190 ros-humble-moveit-resources-prbt-moveit-config_3.0.0-2023.03.10.13.17_amd64.buildinfo
+ af67ff5f1eb35a32fa718aa1dfa7c5deb9a26795 13972 ros-humble-moveit-resources-prbt-moveit-config_3.0.0-2023.03.10.13.17_amd64.deb
+Checksums-Sha256:
+ 450ba1d26b7d05fe79d59148bb472c4cb7ace9263a9f7ee9ccbc7e3e41992c8d 9190 ros-humble-moveit-resources-prbt-moveit-config_3.0.0-2023.03.10.13.17_amd64.buildinfo
+ cbe7497505bce2cb8994976eb7328f0a44cb563d2744b1866b56ba8363595883 13972 ros-humble-moveit-resources-prbt-moveit-config_3.0.0-2023.03.10.13.17_amd64.deb
+Files:
+ 021fae60692fb01b9492a8bcca9baebc 9190 misc optional ros-humble-moveit-resources-prbt-moveit-config_3.0.0-2023.03.10.13.17_amd64.buildinfo
+ 18e844663608d7865f1e280cb7a4c2d2 13972 misc optional ros-humble-moveit-resources-prbt-moveit-config_3.0.0-2023.03.10.13.17_amd64.deb

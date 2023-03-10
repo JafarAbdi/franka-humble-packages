@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-humble-moveit-resources-prbt-pg70-support
+Binary: ros-humble-moveit-resources-prbt-pg70-support
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2023.03.10.13.18
+Distribution: jammy
+Urgency: high
+Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Changed-By: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Description:
+ ros-humble-moveit-resources-prbt-pg70-support - PRBT support for Schunk pg70 gripper.
+Changes:
+ ros-humble-moveit-resources-prbt-pg70-support (3.0.0-2023.03.10.13.18) jammy; urgency=high
+Checksums-Sha1:
+ e43ed0d45ff367343fdf985578f217ca55a2b052 9188 ros-humble-moveit-resources-prbt-pg70-support_3.0.0-2023.03.10.13.18_amd64.buildinfo
+ c1ad154ecc5bc54862041593231e4ef67bef466c 161664 ros-humble-moveit-resources-prbt-pg70-support_3.0.0-2023.03.10.13.18_amd64.deb
+Checksums-Sha256:
+ 3c69d148992bb37c545d7acb0fd78545092c93cc25ad764591ad3957ea3015b0 9188 ros-humble-moveit-resources-prbt-pg70-support_3.0.0-2023.03.10.13.18_amd64.buildinfo
+ 742f0d9234998430bd3ba507b3e735826ee11bfa8af16bdfceada72f3b4ede28 161664 ros-humble-moveit-resources-prbt-pg70-support_3.0.0-2023.03.10.13.18_amd64.deb
+Files:
+ 08cfaef7bd2a47af363b99284f21329d 9188 misc optional ros-humble-moveit-resources-prbt-pg70-support_3.0.0-2023.03.10.13.18_amd64.buildinfo
+ 4a1a4020c5f6d4c138d49573d7a72a20 161664 misc optional ros-humble-moveit-resources-prbt-pg70-support_3.0.0-2023.03.10.13.18_amd64.deb

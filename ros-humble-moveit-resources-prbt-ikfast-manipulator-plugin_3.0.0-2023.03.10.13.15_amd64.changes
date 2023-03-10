@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin
+Binary: ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2023.03.10.13.15
+Distribution: jammy
+Urgency: high
+Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Changed-By: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Description:
+ ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin - The prbt_ikfast_manipulator_plugin package
+Changes:
+ ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin (3.0.0-2023.03.10.13.15) jammy; urgency=high
+ .
+   * converted characters from string format to character format (#1881 <https://github.com/ros-planning/moveit2/issues/1881>)
+   * Used C++ style casting for int type (#1627 <https://github.com/ros-planning/moveit2/issues/1627>)
+   * Add -Wunused-parameter (#1756 <https://github.com/ros-planning/moveit2/issues/1756>)
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Used C++ style cast instead of C style cast  (#1628 <https://github.com/ros-planning/moveit2/issues/1628>)
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Contributors: Abhijeet Das Gupta, Chris Thrasher, Cory Crean, Sameer Gupta
+Checksums-Sha1:
+ 7b1b11c4977694bc0a85c2f293625a31fb33ab3c 2669388 ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin-dbgsym_3.0.0-2023.03.10.13.15_amd64.ddeb
+ f791871a818affae7e7bb1d3a6fbaca188534e21 26167 ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin_3.0.0-2023.03.10.13.15_amd64.buildinfo
+ 4156fb03a19727022dc0b2737f004632c98c7051 127024 ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin_3.0.0-2023.03.10.13.15_amd64.deb
+Checksums-Sha256:
+ 5221fa1aa27064b6a45ac761d38b641798a5508aa040ca0dd1dd2f2474d525c7 2669388 ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin-dbgsym_3.0.0-2023.03.10.13.15_amd64.ddeb
+ f599ce1f41b4b42d8603a3764f36e41a80fc852422a054964f8a11badd28ba7b 26167 ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin_3.0.0-2023.03.10.13.15_amd64.buildinfo
+ 44539ae919b64bb7d53a217658c09ce69e39dcd0b3b6a4e643683ee8d80f51b5 127024 ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin_3.0.0-2023.03.10.13.15_amd64.deb
+Files:
+ 237c9e766c17bef8793f974d8ed2b0d4 2669388 debug optional ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin-dbgsym_3.0.0-2023.03.10.13.15_amd64.ddeb
+ 50f471c15b5111051a021413e39f4c9d 26167 misc optional ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin_3.0.0-2023.03.10.13.15_amd64.buildinfo
+ 4152745d52efacea348fae7e26b4502c 127024 misc optional ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin_3.0.0-2023.03.10.13.15_amd64.deb

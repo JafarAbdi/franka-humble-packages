@@ -1,0 +1,52 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-humble-moveit-ros-robot-interaction
+Binary: ros-humble-moveit-ros-robot-interaction
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2023.03.10.13.49
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-ros-robot-interaction - Components of MoveIt that offer interaction via interactive marke
+Changes:
+ ros-humble-moveit-ros-robot-interaction (3.0.0-2023.03.10.13.49) jammy; urgency=high
+ .
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Minimize use of this-> (#1784 <https://github.com/ros-planning/moveit2/issues/1784>)
+     It's often unnecessary. MoveIt already avoids this in most cases
+     so this PR better cements that existing pattern.
+   * Remove MOVEIT_LIB_NAME (#1751 <https://github.com/ros-planning/moveit2/issues/1751>)
+     It's more readable and searchable if we just spell out the target
+     name.
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Use <> for non-local headers (#1734 <https://github.com/ros-planning/moveit2/issues/1734>)
+     Unless a header lives in the same or a child directory of the file
+     including it, it's recommended to use <> for the #include statement.
+     For more information, see the C++ Core Guidelines item SF.12
+     https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#sf12-prefer-the-quoted-form-of-include-for-files-relative-to-the-including-file-and-the-angle-bracket-form-everywhere-else
+   * Fix clang-tidy issues (#1706 <https://github.com/ros-planning/moveit2/issues/1706>)
+     * Blindly apply automatic clang-tidy fixes
+     * Exemplarily cleanup a few automatic clang-tidy fixes
+     * Clang-tidy fixups
+     * Missed const-ref fixups
+     * Fix unsupported non-const -> const
+     * More fixes
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Contributors: Chris Thrasher, Christian Henkel, Cory Crean, Robert Haschke
+Checksums-Sha1:
+ 70cebd5ff2ff5975d08e861bf44b7e3d0805b8d6 6768970 ros-humble-moveit-ros-robot-interaction-dbgsym_3.0.0-2023.03.10.13.49_amd64.ddeb
+ dee14222597655b8e7af9db2755b2184548422c9 27803 ros-humble-moveit-ros-robot-interaction_3.0.0-2023.03.10.13.49_amd64.buildinfo
+ 995e979d37733b7b9cf24289ffdf13d876966030 174544 ros-humble-moveit-ros-robot-interaction_3.0.0-2023.03.10.13.49_amd64.deb
+Checksums-Sha256:
+ d021cb0e85fcacc8f51601b9b3f2779b15253ab7fd1ae1dd1541b15e3a5bba35 6768970 ros-humble-moveit-ros-robot-interaction-dbgsym_3.0.0-2023.03.10.13.49_amd64.ddeb
+ 8f96990f6185decdc917204fae97f906660c3d2f322014deb2701225696a37e2 27803 ros-humble-moveit-ros-robot-interaction_3.0.0-2023.03.10.13.49_amd64.buildinfo
+ dd75405324bf07c14b889180026884c33804f4a91d7ae571486d56985caacf76 174544 ros-humble-moveit-ros-robot-interaction_3.0.0-2023.03.10.13.49_amd64.deb
+Files:
+ 8e63222773cd2de672f8a76b67002df2 6768970 debug optional ros-humble-moveit-ros-robot-interaction-dbgsym_3.0.0-2023.03.10.13.49_amd64.ddeb
+ a7a4baba49f39c25d2603c4cd26dd5b4 27803 misc optional ros-humble-moveit-ros-robot-interaction_3.0.0-2023.03.10.13.49_amd64.buildinfo
+ 1998f5a410d74049c0731081bd41d6b1 174544 misc optional ros-humble-moveit-ros-robot-interaction_3.0.0-2023.03.10.13.49_amd64.deb

@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-humble-moveit-ros-control-interface
+Binary: ros-humble-moveit-ros-control-interface
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2023.03.10.14.01
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-ros-control-interface - ros_control controller manager interface for MoveIt
+Changes:
+ ros-humble-moveit-ros-control-interface (3.0.0-2023.03.10.14.01) jammy; urgency=high
+ .
+   * Fix parameters for ros2_control namespaces (#1833 <https://github.com/ros-planning/moveit2/issues/1833>)
+     Co-authored-by: AndyZe <mailto:andyz@utexas.edu>
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Contributors: Christian Henkel, Pablo Iñigo Blasco
+Checksums-Sha1:
+ 6731ef54bd61c932f6957cc9bec9d5a211800e5f 3655172 ros-humble-moveit-ros-control-interface-dbgsym_3.0.0-2023.03.10.14.01_amd64.ddeb
+ f0cfcc6976bca1d8799f982329acf76f26923416 27145 ros-humble-moveit-ros-control-interface_3.0.0-2023.03.10.14.01_amd64.buildinfo
+ b40e0565e0629d1e1c382805b5510801f2923916 195310 ros-humble-moveit-ros-control-interface_3.0.0-2023.03.10.14.01_amd64.deb
+Checksums-Sha256:
+ 23363864dadb11d067e3558be992a81003d27db8076af1829dce7f36d8e44540 3655172 ros-humble-moveit-ros-control-interface-dbgsym_3.0.0-2023.03.10.14.01_amd64.ddeb
+ 0ff238fd1527e58dc442d32faa4a2a9026c70eb2930afd821ae45ffc05a52468 27145 ros-humble-moveit-ros-control-interface_3.0.0-2023.03.10.14.01_amd64.buildinfo
+ 835ae2aec57694938a920008000fcda5fb86b5798428837c49984bf1e418078b 195310 ros-humble-moveit-ros-control-interface_3.0.0-2023.03.10.14.01_amd64.deb
+Files:
+ 8963864524ae5ec830f2bd49be7c3e84 3655172 debug optional ros-humble-moveit-ros-control-interface-dbgsym_3.0.0-2023.03.10.14.01_amd64.ddeb
+ 4098aff40525833dd1736242402448c6 27145 misc optional ros-humble-moveit-ros-control-interface_3.0.0-2023.03.10.14.01_amd64.buildinfo
+ b87e89043e83e4f5241ea80357ba59c6 195310 misc optional ros-humble-moveit-ros-control-interface_3.0.0-2023.03.10.14.01_amd64.deb

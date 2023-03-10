@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-humble-moveit-configs-utils
+Binary: ros-humble-moveit-configs-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2023.03.10.12.52
+Distribution: jammy
+Urgency: high
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Changed-By: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Description:
+ ros-humble-moveit-configs-utils - Python library for loading moveit config parameters in launch fil
+Changes:
+ ros-humble-moveit-configs-utils (3.0.0-2023.03.10.12.52) jammy; urgency=high
+ .
+   * feat: adds compatibility to robot_description from topic instead of parameter (#1806 <https://github.com/ros-planning/moveit2/issues/1806>)
+   * Add support for multiple MoveItConfigBuilder instaces (#1807 <https://github.com/ros-planning/moveit2/issues/1807>)
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Contributors: Christian Henkel, Marco Magri
+Checksums-Sha1:
+ dc485b3fac119323a1e998ebc07b0988a35ad722 9852 ros-humble-moveit-configs-utils_3.0.0-2023.03.10.12.52_amd64.buildinfo
+ e6d278cb9ddf278627d8716518535ee3472a6b08 23052 ros-humble-moveit-configs-utils_3.0.0-2023.03.10.12.52_amd64.deb
+Checksums-Sha256:
+ 144e03de6496c1ae897218656ef39bcba3e678a61c795c6b66eb90da23cbe0d9 9852 ros-humble-moveit-configs-utils_3.0.0-2023.03.10.12.52_amd64.buildinfo
+ 5437e557531f94d53e44190259d3216f0d10ca8fb03dbf420b9f64d483fbffc7 23052 ros-humble-moveit-configs-utils_3.0.0-2023.03.10.12.52_amd64.deb
+Files:
+ a0b85b2f7a8c40b3de4602119ff6b545 9852 misc optional ros-humble-moveit-configs-utils_3.0.0-2023.03.10.12.52_amd64.buildinfo
+ 12ae80b1e86d8282b029842a6a13c8b5 23052 misc optional ros-humble-moveit-configs-utils_3.0.0-2023.03.10.12.52_amd64.deb

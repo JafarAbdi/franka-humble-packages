@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-humble-pilz-industrial-motion-planner-testutils
+Binary: ros-humble-pilz-industrial-motion-planner-testutils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2023.03.10.14.55
+Distribution: jammy
+Urgency: high
+Maintainer: Christian Henkel <c.henkel@pilz.de>
+Changed-By: Christian Henkel <c.henkel@pilz.de>
+Description:
+ ros-humble-pilz-industrial-motion-planner-testutils - Helper scripts and functionality to test industrial motion genera
+Changes:
+ ros-humble-pilz-industrial-motion-planner-testutils (3.0.0-2023.03.10.14.55) jammy; urgency=high
+ .
+   * Merge PR #1712 <https://github.com/ros-planning/moveit2/issues/1712>: fix clang compiler warnings + stricter CI
+   * converted characters from string format to character format (#1881 <https://github.com/ros-planning/moveit2/issues/1881>)
+   * Add noexcept specifier to constructors
+   * Add default constructors
+     ... as they are not implicitly declared anymore
+   * Add default copy/move constructors/assignment operators
+     As a user-declared destructor deletes any implicitly-defined move constructor/assignment operator,
+     we need to declared them manually. This in turn requires to declare the copy constructor/assignment as well.
+   * Fix -Wdelete-non-abstract-non-virtual-dtor
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Minimize use of this-> (#1784 <https://github.com/ros-planning/moveit2/issues/1784>)
+     It's often unnecessary. MoveIt already avoids this in most cases
+     so this PR better cements that existing pattern.
+   * Use <> for non-local headers (#1734 <https://github.com/ros-planning/moveit2/issues/1734>)
+     Unless a header lives in the same or a child directory of the file
+     including it, it's recommended to use <> for the #include statement.
+     For more information, see the C++ Core Guidelines item SF.12
+     https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#sf12-prefer-the-quoted-form-of-include-for-files-relative-to-the-including-file-and-the-angle-bracket-form-everywhere-else
+   * Contributors: Chris Thrasher, Christian Henkel, Robert Haschke, Sameer Gupta
+Checksums-Sha1:
+ 6c9b4fccf3f64932e1d58dd300cbd7a4038e0491 5086290 ros-humble-pilz-industrial-motion-planner-testutils-dbgsym_3.0.0-2023.03.10.14.55_amd64.ddeb
+ c4c0890ec2098eb935d4bc1db864ccb09ba75cd0 27050 ros-humble-pilz-industrial-motion-planner-testutils_3.0.0-2023.03.10.14.55_amd64.buildinfo
+ bca20723015def3169db91827e8f4bac1ba77b45 105484 ros-humble-pilz-industrial-motion-planner-testutils_3.0.0-2023.03.10.14.55_amd64.deb
+Checksums-Sha256:
+ 837c44dc3a7a14160341773b6c5733f56bc05ec2ad96bbb174989dcee230585d 5086290 ros-humble-pilz-industrial-motion-planner-testutils-dbgsym_3.0.0-2023.03.10.14.55_amd64.ddeb
+ b9f5b417a7d4d945dc3529393771cb1a0a94f00eb494a86f8db33ab2b9569914 27050 ros-humble-pilz-industrial-motion-planner-testutils_3.0.0-2023.03.10.14.55_amd64.buildinfo
+ 47f87fe12fc9c6130ff16a7bab2d19b77eefc9a23a41c91fba21211bb64125c3 105484 ros-humble-pilz-industrial-motion-planner-testutils_3.0.0-2023.03.10.14.55_amd64.deb
+Files:
+ 6d75e9bd430bb0c5039f3a918fad33fb 5086290 debug optional ros-humble-pilz-industrial-motion-planner-testutils-dbgsym_3.0.0-2023.03.10.14.55_amd64.ddeb
+ 3d75e3b1c76f3c6951deaf001f3fc4a6 27050 misc optional ros-humble-pilz-industrial-motion-planner-testutils_3.0.0-2023.03.10.14.55_amd64.buildinfo
+ 84026f695b242688ae6014278720fbae 105484 misc optional ros-humble-pilz-industrial-motion-planner-testutils_3.0.0-2023.03.10.14.55_amd64.deb

@@ -1,0 +1,68 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-humble-pilz-industrial-motion-planner
+Binary: ros-humble-pilz-industrial-motion-planner
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2023.03.10.14.57
+Distribution: jammy
+Urgency: high
+Maintainer: Christian Henkel <c.henkel@pilz.de>
+Changed-By: Christian Henkel <c.henkel@pilz.de>
+Description:
+ ros-humble-pilz-industrial-motion-planner - MoveIt plugin to generate industrial trajectories PTP, LIN, CIRC
+Changes:
+ ros-humble-pilz-industrial-motion-planner (3.0.0-2023.03.10.14.57) jammy; urgency=high
+ .
+   * Merge PR #1712 <https://github.com/ros-planning/moveit2/issues/1712>: fix clang compiler warnings + stricter CI
+   * converted characters from string format to character format (#1881 <https://github.com/ros-planning/moveit2/issues/1881>)
+   * Add default constructors
+     ... as they are not implicitly declared anymore
+   * Add default copy/move constructors/assignment operators
+     As a user-declared destructor deletes any implicitly-defined move constructor/assignment operator,
+     we need to declared them manually. This in turn requires to declare the copy constructor/assignment as well.
+   * Fix -Wunused-lambda-capture
+   * fix: resolve bugs in MoveGroupSequenceAction class (main branch) (#1797 <https://github.com/ros-planning/moveit2/issues/1797>)
+     * fix: resolve bugs in MoveGroupSequenceAction class
+     * style: adopt .clang-format
+     Co-authored-by: Marco Magri <mailto:marco.magri@fraunhofer.it>
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Minimize use of this-> (#1784 <https://github.com/ros-planning/moveit2/issues/1784>)
+     It's often unnecessary. MoveIt already avoids this in most cases
+     so this PR better cements that existing pattern.
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Use <> for non-local headers (#1734 <https://github.com/ros-planning/moveit2/issues/1734>)
+     Unless a header lives in the same or a child directory of the file
+     including it, it's recommended to use <> for the #include statement.
+     For more information, see the C++ Core Guidelines item SF.12
+     https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#sf12-prefer-the-quoted-form-of-include-for-files-relative-to-the-including-file-and-the-angle-bracket-form-everywhere-else
+   * Cleanup lookup of planning pipelines in MoveItCpp (#1710 <https://github.com/ros-planning/moveit2/issues/1710>)
+     * Revert "Add planner configurations to CHOMP and PILZ (#1522 <https://github.com/ros-planning/moveit2/issues/1522>)"
+     * Cleanup lookup of planning pipelines
+     Remove MoveItCpp::getPlanningPipelineNames(), which was obviously intended initially to provide a planning-group-based filter for all available planning pipelines: A pipeline was discarded for a group, if there were no planner_configs defined for that group on the parameter server.
+     As pointed out in #1522 <https://github.com/ros-planning/moveit2/issues/1522>, only OMPL actually explicitly declares planner_configs on the parameter server.
+     To enable all other pipelines as well (and thus circumventing the original filter mechanism), #1522 <https://github.com/ros-planning/moveit2/issues/1522> introduced empty dummy planner_configs for all other planners as well (CHOMP + Pilz).
+     This, obviously, renders the whole filter mechanism useless. Thus, here we just remove the function getPlanningPipelineNames() and the corresponding member groups_pipelines_map_.
+   * Fix clang-tidy issues (#1706 <https://github.com/ros-planning/moveit2/issues/1706>)
+     * Blindly apply automatic clang-tidy fixes
+     * Exemplarily cleanup a few automatic clang-tidy fixes
+     * Clang-tidy fixups
+     * Missed const-ref fixups
+     * Fix unsupported non-const -> const
+     * More fixes
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Contributors: Chris Thrasher, Christian Henkel, Cory Crean, Marco Magri, Robert Haschke, Sameer Gupta
+Checksums-Sha1:
+ 30bbc2067650d63a170c16e783979580b7219eb3 87249298 ros-humble-pilz-industrial-motion-planner-dbgsym_3.0.0-2023.03.10.14.57_amd64.ddeb
+ 53af48b0aa37ab2d0ab8caf4f2ce0bce47bff35b 36341 ros-humble-pilz-industrial-motion-planner_3.0.0-2023.03.10.14.57_amd64.buildinfo
+ 8f94f22129af3a1ecb8c2e65ae187ab1e68933a1 1709534 ros-humble-pilz-industrial-motion-planner_3.0.0-2023.03.10.14.57_amd64.deb
+Checksums-Sha256:
+ c5e13edbd18dea41cf231a83f8921711991fdf3aa848b4c76a719e4a7125859b 87249298 ros-humble-pilz-industrial-motion-planner-dbgsym_3.0.0-2023.03.10.14.57_amd64.ddeb
+ f13993384a57c10ab4c88d38b54c86243a6239234f3d7580ec157fccf9574061 36341 ros-humble-pilz-industrial-motion-planner_3.0.0-2023.03.10.14.57_amd64.buildinfo
+ f152237f51f6cc947d70a16f924425f1182887bf435d6ee2d6b0a6e0bdff56fe 1709534 ros-humble-pilz-industrial-motion-planner_3.0.0-2023.03.10.14.57_amd64.deb
+Files:
+ 931ea222a35ede63f4658b82d847df48 87249298 debug optional ros-humble-pilz-industrial-motion-planner-dbgsym_3.0.0-2023.03.10.14.57_amd64.ddeb
+ de59baa85c2cb0622f93c26f67f11e6a 36341 misc optional ros-humble-pilz-industrial-motion-planner_3.0.0-2023.03.10.14.57_amd64.buildinfo
+ 7dd160d32f4aa25c894848f821a82e94 1709534 misc optional ros-humble-pilz-industrial-motion-planner_3.0.0-2023.03.10.14.57_amd64.deb
