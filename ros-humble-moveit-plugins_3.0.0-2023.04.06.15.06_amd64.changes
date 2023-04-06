@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-humble-moveit-plugins
+Binary: ros-humble-moveit-plugins
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2023.04.06.15.06
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-plugins - Metapackage for MoveIt plugins.
+Changes:
+ ros-humble-moveit-plugins (3.0.0-2023.04.06.15.06) jammy; urgency=high
+ .
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Contributors: Christian Henkel
+Checksums-Sha1:
+ 8dfdf9d355896a2b2a0776828f316b131249fa47 10813 ros-humble-moveit-plugins_3.0.0-2023.04.06.15.06_amd64.buildinfo
+ 008c6137ea1bd0900a7487d9369413913bc7af5f 6242 ros-humble-moveit-plugins_3.0.0-2023.04.06.15.06_amd64.deb
+Checksums-Sha256:
+ 311fccb9cb6fd6046159693ae646991272ccb2c8c17bb8d61aa82d34d8b66bfb 10813 ros-humble-moveit-plugins_3.0.0-2023.04.06.15.06_amd64.buildinfo
+ 97fd29c2cdb64ce3902eabe6ecb8ba0f9fa604eaafe4198d4754f47715afc5ea 6242 ros-humble-moveit-plugins_3.0.0-2023.04.06.15.06_amd64.deb
+Files:
+ 686dce234bf4f03771e91da9024cdc4d 10813 misc optional ros-humble-moveit-plugins_3.0.0-2023.04.06.15.06_amd64.buildinfo
+ 2768f8befae642039ef7556f67522541 6242 misc optional ros-humble-moveit-plugins_3.0.0-2023.04.06.15.06_amd64.deb

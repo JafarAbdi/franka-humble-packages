@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-humble-moveit-chomp-optimizer-adapter
+Binary: ros-humble-moveit-chomp-optimizer-adapter
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2023.04.06.15.02
+Distribution: jammy
+Urgency: high
+Maintainer: Raghavender Sahdev <raghavendersahdev@gmail.com>
+Changed-By: Raghavender Sahdev <raghavendersahdev@gmail.com>
+Description:
+ ros-humble-moveit-chomp-optimizer-adapter - MoveIt planning request adapter utilizing chomp for solution opti
+Changes:
+ ros-humble-moveit-chomp-optimizer-adapter (3.0.0-2023.04.06.15.02) jammy; urgency=high
+ .
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Use a stronger source of randomness (#1721 <https://github.com/ros-planning/moveit2/issues/1721>)
+     * Remove use of deprecated std::random_shuffle
+     * Replace random number generators with rsl::rng
+     * Utilize rsl::uniform_real
+   * Contributors: Chris Thrasher, Christian Henkel
+Checksums-Sha1:
+ a2ffc3c3517cbd0292234d5795c91bd6b7a7b71d 2019426 ros-humble-moveit-chomp-optimizer-adapter-dbgsym_3.0.0-2023.04.06.15.02_amd64.ddeb
+ 927b8fd29b175a26135e4465fb523db8d1f182dd 27234 ros-humble-moveit-chomp-optimizer-adapter_3.0.0-2023.04.06.15.02_amd64.buildinfo
+ d231284701e9db616cfbc249d469a45d19cb14cc 27826 ros-humble-moveit-chomp-optimizer-adapter_3.0.0-2023.04.06.15.02_amd64.deb
+Checksums-Sha256:
+ 59b18934b208915f748e83a48a77a2bcaa066982ad3ae406c07732b3e47a85ff 2019426 ros-humble-moveit-chomp-optimizer-adapter-dbgsym_3.0.0-2023.04.06.15.02_amd64.ddeb
+ 9df12f146bbc589edba50a348b75453fec1fefcebc1966be0263f55e2b75f38e 27234 ros-humble-moveit-chomp-optimizer-adapter_3.0.0-2023.04.06.15.02_amd64.buildinfo
+ 219d65a3ed50c301bf0ea5e8efc42a92f98a1dc8b9aecd24a30b2dbeda499212 27826 ros-humble-moveit-chomp-optimizer-adapter_3.0.0-2023.04.06.15.02_amd64.deb
+Files:
+ b32a295895035dcfb890c16cf138472f 2019426 debug optional ros-humble-moveit-chomp-optimizer-adapter-dbgsym_3.0.0-2023.04.06.15.02_amd64.ddeb
+ fb7e02f419f5a67b12be391a50f4d35b 27234 misc optional ros-humble-moveit-chomp-optimizer-adapter_3.0.0-2023.04.06.15.02_amd64.buildinfo
+ 0a943add73afa50d34fb1c35c4342c80 27826 misc optional ros-humble-moveit-chomp-optimizer-adapter_3.0.0-2023.04.06.15.02_amd64.deb

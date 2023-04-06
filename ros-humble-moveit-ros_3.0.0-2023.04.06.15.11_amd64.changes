@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-humble-moveit-ros
+Binary: ros-humble-moveit-ros
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2023.04.06.15.11
+Distribution: jammy
+Urgency: high
+Maintainer: Michael Görner <me@v4hn.de>
+Changed-By: Michael Görner <me@v4hn.de>
+Description:
+ ros-humble-moveit-ros - Components of MoveIt that use ROS
+Changes:
+ ros-humble-moveit-ros (3.0.0-2023.04.06.15.11) jammy; urgency=high
+ .
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Contributors: Christian Henkel
+Checksums-Sha1:
+ 5c2879d8bf15a5be306ce49e75faff7cb3398e0e 10793 ros-humble-moveit-ros_3.0.0-2023.04.06.15.11_amd64.buildinfo
+ 349d13a9f1f8f15d696eda919458856a34af6412 6748 ros-humble-moveit-ros_3.0.0-2023.04.06.15.11_amd64.deb
+Checksums-Sha256:
+ 0e1a8937777721291386b865277793b5d0278fa73202bb1ea4928aaa5cd8e5b5 10793 ros-humble-moveit-ros_3.0.0-2023.04.06.15.11_amd64.buildinfo
+ ffed10a98262e5279821e178e22389ce19c42e68d4bab322b726a98265d62471 6748 ros-humble-moveit-ros_3.0.0-2023.04.06.15.11_amd64.deb
+Files:
+ 001d3d38c5e545c92b503ef270900b3d 10793 misc optional ros-humble-moveit-ros_3.0.0-2023.04.06.15.11_amd64.buildinfo
+ c7fda74c92a0cb3837e4f218b0501bb4 6748 misc optional ros-humble-moveit-ros_3.0.0-2023.04.06.15.11_amd64.deb

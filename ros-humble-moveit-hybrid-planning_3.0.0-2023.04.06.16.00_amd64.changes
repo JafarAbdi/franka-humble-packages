@@ -1,0 +1,60 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-humble-moveit-hybrid-planning
+Binary: ros-humble-moveit-hybrid-planning
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2023.04.06.16.00
+Distribution: jammy
+Urgency: high
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Changed-By: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Description:
+ ros-humble-moveit-hybrid-planning - Hybrid planning components of MoveIt 2
+Changes:
+ ros-humble-moveit-hybrid-planning (3.0.0-2023.04.06.16.00) jammy; urgency=high
+ .
+   * Merge PR #1712 <https://github.com/ros-planning/moveit2/issues/1712>: fix clang compiler warnings + stricter CI
+   * Add default constructors
+     ... as they are not implicitly declared anymore
+   * Explicitly declare overrides
+   * Add default copy/move constructors/assignment operators
+     As a user-declared destructor deletes any implicitly-defined move constructor/assignment operator,
+     we need to declared them manually. This in turn requires to declare the copy constructor/assignment as well.
+   * Fix more clang warnings
+   * Fix -Wdelete-non-abstract-non-virtual-dtor
+   * Cleanup msg includes: Use C++ instead of C header (#1844 <https://github.com/ros-planning/moveit2/issues/1844>)
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Minimize use of this-> (#1784 <https://github.com/ros-planning/moveit2/issues/1784>)
+     It's often unnecessary. MoveIt already avoids this in most cases
+     so this PR better cements that existing pattern.
+   * Enable -Wold-style-cast (#1770 <https://github.com/ros-planning/moveit2/issues/1770>)
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Use <> for non-local headers (#1734 <https://github.com/ros-planning/moveit2/issues/1734>)
+     Unless a header lives in the same or a child directory of the file
+     including it, it's recommended to use <> for the #include statement.
+     For more information, see the C++ Core Guidelines item SF.12
+     https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#sf12-prefer-the-quoted-form-of-include-for-files-relative-to-the-including-file-and-the-angle-bracket-form-everywhere-else
+   * Fix clang-tidy issues (#1706 <https://github.com/ros-planning/moveit2/issues/1706>)
+     * Blindly apply automatic clang-tidy fixes
+     * Exemplarily cleanup a few automatic clang-tidy fixes
+     * Clang-tidy fixups
+     * Missed const-ref fixups
+     * Fix unsupported non-const -> const
+     * More fixes
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Contributors: Chris Thrasher, Christian Henkel, Cory Crean, Robert Haschke
+Checksums-Sha1:
+ 540608850dc4b39611009df5b96fece8dcc36bfd 24828940 ros-humble-moveit-hybrid-planning-dbgsym_3.0.0-2023.04.06.16.00_amd64.ddeb
+ 3a17630fd9488b7577376cb0838b7a00707eb116 29803 ros-humble-moveit-hybrid-planning_3.0.0-2023.04.06.16.00_amd64.buildinfo
+ 1ae233b11d5df3f3b939cac462793c6f63bd42e1 627198 ros-humble-moveit-hybrid-planning_3.0.0-2023.04.06.16.00_amd64.deb
+Checksums-Sha256:
+ 3906b2c9d23eed21b1b4508d3e3402bd113c289a7fa19bbe852cf0848f9f3b63 24828940 ros-humble-moveit-hybrid-planning-dbgsym_3.0.0-2023.04.06.16.00_amd64.ddeb
+ fb3b8463b846bcce5032d8d8bbc28885a9797287cd5f3dcee36ae98bbe42ddc4 29803 ros-humble-moveit-hybrid-planning_3.0.0-2023.04.06.16.00_amd64.buildinfo
+ 72e83ba482450873ff4fc5fa108a31eb02c062bf8838454b283b20400f1f7926 627198 ros-humble-moveit-hybrid-planning_3.0.0-2023.04.06.16.00_amd64.deb
+Files:
+ 1e10a54c4992c6c58b425e58f59dbe5b 24828940 debug optional ros-humble-moveit-hybrid-planning-dbgsym_3.0.0-2023.04.06.16.00_amd64.ddeb
+ 9d05548c120c069a61655a2f0cc2538d 29803 misc optional ros-humble-moveit-hybrid-planning_3.0.0-2023.04.06.16.00_amd64.buildinfo
+ 580af49d008aedee06bbc5bce54c1350 627198 misc optional ros-humble-moveit-hybrid-planning_3.0.0-2023.04.06.16.00_amd64.deb

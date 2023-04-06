@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Mon, 20 Feb 2023 00:00:00 -0000
+Source: ros-humble-ros2-controllers
+Binary: ros-humble-ros2-controllers
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.2.0-236-gf661907-2023.04.06.17.03
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-humble-ros2-controllers - Metapackage for ROS2 controllers related packages
+Changes:
+ ros-humble-ros2-controllers (0.2.0-236-gf661907-2023.04.06.17.03) jammy; urgency=high
+Checksums-Sha1:
+ 261107e3a83c5522f5f14c142b080a49cc84bf10 9173 ros-humble-ros2-controllers_0.2.0-236-gf661907-2023.04.06.17.03_amd64.buildinfo
+ b8c2aeea1b4068530ece3f388214d08f176a8c3e 5792 ros-humble-ros2-controllers_0.2.0-236-gf661907-2023.04.06.17.03_amd64.deb
+Checksums-Sha256:
+ 149d38b98af4039897918045e88b955d3412f77a7eb6ab4bac765649df904e0f 9173 ros-humble-ros2-controllers_0.2.0-236-gf661907-2023.04.06.17.03_amd64.buildinfo
+ dc1da78eb8eb55924f07b1c5de9db04f72d0bcb41d828875e97eea2037849974 5792 ros-humble-ros2-controllers_0.2.0-236-gf661907-2023.04.06.17.03_amd64.deb
+Files:
+ 9bf1acb9f0f399131d29b2eb066de698 9173 misc optional ros-humble-ros2-controllers_0.2.0-236-gf661907-2023.04.06.17.03_amd64.buildinfo
+ 86ab1677ad4452b4f50455bee99ba7d0 5792 misc optional ros-humble-ros2-controllers_0.2.0-236-gf661907-2023.04.06.17.03_amd64.deb

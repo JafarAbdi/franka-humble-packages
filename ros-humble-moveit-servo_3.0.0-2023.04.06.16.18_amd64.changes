@@ -1,0 +1,65 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-humble-moveit-servo
+Binary: ros-humble-moveit-servo
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2023.04.06.16.18
+Distribution: jammy
+Urgency: high
+Maintainer: Blake Anderson <blakeanderson@utexas.edu>
+Changed-By: Blake Anderson <blakeanderson@utexas.edu>
+Description:
+ ros-humble-moveit-servo - Provides real-time manipulator Cartesian and joint servoing.
+Changes:
+ ros-humble-moveit-servo (3.0.0-2023.04.06.16.18) jammy; urgency=high
+ .
+   * Merge PR #1712 <https://github.com/ros-planning/moveit2/issues/1712>: fix clang compiler warnings + stricter CI
+   * converted characters from string format to character format (#1881 <https://github.com/ros-planning/moveit2/issues/1881>)
+   * Update the Servo dependency on realtime_tools (#1791 <https://github.com/ros-planning/moveit2/issues/1791>)
+     * Update the Servo dependency on realtime_tools
+     * Update .repos
+     * Add comment
+   * Fix more clang warnings
+   * Fix warning: passing by value
+   * Cleanup msg includes: Use C++ instead of C header (#1844 <https://github.com/ros-planning/moveit2/issues/1844>)
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Minimize use of this-> (#1784 <https://github.com/ros-planning/moveit2/issues/1784>)
+     It's often unnecessary. MoveIt already avoids this in most cases
+     so this PR better cements that existing pattern.
+   * Enable -Wold-style-cast (#1770 <https://github.com/ros-planning/moveit2/issues/1770>)
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Use <> for non-local headers (#1734 <https://github.com/ros-planning/moveit2/issues/1734>)
+     Unless a header lives in the same or a child directory of the file
+     including it, it's recommended to use <> for the #include statement.
+     For more information, see the C++ Core Guidelines item SF.12
+     https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#sf12-prefer-the-quoted-form-of-include-for-files-relative-to-the-including-file-and-the-angle-bracket-form-everywhere-else
+   * Servo: Check frames are known before getting their TFs (#612 <https://github.com/ros-planning/moveit2/issues/612>)
+     * Check frames are known before getting their TFs
+     * Allow empty command frame - fixes tests
+     * Address Jere's feedback
+     Co-authored-by: AndyZe <mailto:andyz@utexas.edu>
+   * Fix clang-tidy issues (#1706 <https://github.com/ros-planning/moveit2/issues/1706>)
+     * Blindly apply automatic clang-tidy fixes
+     * Exemplarily cleanup a few automatic clang-tidy fixes
+     * Clang-tidy fixups
+     * Missed const-ref fixups
+     * Fix unsupported non-const -> const
+     * More fixes
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Remove unused function in Servo (#1709 <https://github.com/ros-planning/moveit2/issues/1709>)
+   * Contributors: AdamPettinger, AndyZe, Chris Thrasher, Christian Henkel, Cory Crean, Henning Kayser, Robert Haschke, Sameer Gupta
+Checksums-Sha1:
+ 08fd1c85cfe9ce148401d2c8f8d6baa5142fa983 33081750 ros-humble-moveit-servo-dbgsym_3.0.0-2023.04.06.16.18_amd64.ddeb
+ 6eca407dd3b08b887a1301db2fc13e790e109250 33143 ros-humble-moveit-servo_3.0.0-2023.04.06.16.18_amd64.buildinfo
+ c4e0c15761b3e9fb1a14d1735a8361cf76cec23e 669986 ros-humble-moveit-servo_3.0.0-2023.04.06.16.18_amd64.deb
+Checksums-Sha256:
+ 72ed6535a5222825f31381a3fdbdfc094caf1197c02a2710b86eea4481155232 33081750 ros-humble-moveit-servo-dbgsym_3.0.0-2023.04.06.16.18_amd64.ddeb
+ 13848a557b01c0dd475ec18b6f703417a0f066ac72f8373ef42526ac6e4e2ef5 33143 ros-humble-moveit-servo_3.0.0-2023.04.06.16.18_amd64.buildinfo
+ 4f6533c0daefbf452ec0e4d0fc2497fdf6d011bfb7e3af4980809b13d6f52f34 669986 ros-humble-moveit-servo_3.0.0-2023.04.06.16.18_amd64.deb
+Files:
+ af63c387d9d09f25368f4efbf9d8cb37 33081750 debug optional ros-humble-moveit-servo-dbgsym_3.0.0-2023.04.06.16.18_amd64.ddeb
+ 8c0d9339f71fdfbcbb5ba79b88de2d2f 33143 misc optional ros-humble-moveit-servo_3.0.0-2023.04.06.16.18_amd64.buildinfo
+ 4b3a13b2ddb53c88144d8d10d35a07b1 669986 misc optional ros-humble-moveit-servo_3.0.0-2023.04.06.16.18_amd64.deb

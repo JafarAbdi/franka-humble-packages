@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Mon, 20 Feb 2023 00:00:00 -0000
+Source: ros-humble-diff-drive-controller
+Binary: ros-humble-diff-drive-controller
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.2.0-236-gf661907-2023.04.06.14.11
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-humble-diff-drive-controller - Controller for a differential drive mobile base.
+Changes:
+ ros-humble-diff-drive-controller (0.2.0-236-gf661907-2023.04.06.14.11) jammy; urgency=high
+ .
+   * [DiffDriveController] Fix prefixing of frame id with controller's namespace (#522 <https://github.com/ros-controls/ros2_controllers/issues/522>)
+   * Contributors: Tim Verbelen
+Checksums-Sha1:
+ b3cef8296e317e91b30a5c3756bcddc18437e1df 3547464 ros-humble-diff-drive-controller-dbgsym_0.2.0-236-gf661907-2023.04.06.14.11_amd64.ddeb
+ 50688710462bf8311bbcc8e95b9b3dec9ef7a5bc 17790 ros-humble-diff-drive-controller_0.2.0-236-gf661907-2023.04.06.14.11_amd64.buildinfo
+ 34ae4c3ec4a3acc6bcb863bf2d010d05d4b67b3f 185342 ros-humble-diff-drive-controller_0.2.0-236-gf661907-2023.04.06.14.11_amd64.deb
+Checksums-Sha256:
+ 9fa7276986588a03b1579aed13ecaad925a78309fc56fa583eb1f12fd465523e 3547464 ros-humble-diff-drive-controller-dbgsym_0.2.0-236-gf661907-2023.04.06.14.11_amd64.ddeb
+ 266f7256e846927bb1f8de838a13a75ae48bdd163bd16ce50309d76debea54ac 17790 ros-humble-diff-drive-controller_0.2.0-236-gf661907-2023.04.06.14.11_amd64.buildinfo
+ 9219bcc8278e98243ca8bbdec199753aebabb2842f4b1a118c727359afec0111 185342 ros-humble-diff-drive-controller_0.2.0-236-gf661907-2023.04.06.14.11_amd64.deb
+Files:
+ 60fb397cf3e1e30eeacd8fc5a837e9ab 3547464 debug optional ros-humble-diff-drive-controller-dbgsym_0.2.0-236-gf661907-2023.04.06.14.11_amd64.ddeb
+ 5a0b837d18d9d6d84b42b2fec81c39d6 17790 misc optional ros-humble-diff-drive-controller_0.2.0-236-gf661907-2023.04.06.14.11_amd64.buildinfo
+ 8fb51133f5d223b7cc004bf0faa3d0ba 185342 misc optional ros-humble-diff-drive-controller_0.2.0-236-gf661907-2023.04.06.14.11_amd64.deb

@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Mon, 20 Feb 2023 00:00:00 -0000
+Source: ros-humble-rqt-joint-trajectory-controller
+Binary: ros-humble-rqt-joint-trajectory-controller
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.2.0-236-gf661907-2023.04.06.17.05
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-humble-rqt-joint-trajectory-controller - Graphical frontend for interacting with joint_trajectory_controll
+Changes:
+ ros-humble-rqt-joint-trajectory-controller (0.2.0-236-gf661907-2023.04.06.17.05) jammy; urgency=high
+Checksums-Sha1:
+ b374902e48173a1ea7aa549e4fd91b9d5cf7b5e6 6730 ros-humble-rqt-joint-trajectory-controller_0.2.0-236-gf661907-2023.04.06.17.05_amd64.buildinfo
+ 23439b3af1e9ad48422d081be5fa42684f04f0e5 34170 ros-humble-rqt-joint-trajectory-controller_0.2.0-236-gf661907-2023.04.06.17.05_amd64.deb
+Checksums-Sha256:
+ e0c979a70a585835c3ce78bc401887d88bcbd15db5ee4787ec5f55f2ff4b0ba0 6730 ros-humble-rqt-joint-trajectory-controller_0.2.0-236-gf661907-2023.04.06.17.05_amd64.buildinfo
+ 2a87b1593fe2af46342cc95d7121edaa110abd63b0b745b48232703e57b5e5b3 34170 ros-humble-rqt-joint-trajectory-controller_0.2.0-236-gf661907-2023.04.06.17.05_amd64.deb
+Files:
+ fdd9757d25ca817da50a867b0ae671ae 6730 misc optional ros-humble-rqt-joint-trajectory-controller_0.2.0-236-gf661907-2023.04.06.17.05_amd64.buildinfo
+ fd74c5a078be01c7cfb5e8480bad5e38 34170 misc optional ros-humble-rqt-joint-trajectory-controller_0.2.0-236-gf661907-2023.04.06.17.05_amd64.deb

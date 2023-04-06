@@ -1,0 +1,43 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-humble-moveit-simple-controller-manager
+Binary: ros-humble-moveit-simple-controller-manager
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2023.04.06.15.53
+Distribution: jammy
+Urgency: high
+Maintainer: Michael Görner <me@v4hn.de>
+Changed-By: Michael Görner <me@v4hn.de>
+Description:
+ ros-humble-moveit-simple-controller-manager - A generic, simple controller manager plugin for MoveIt.
+Changes:
+ ros-humble-moveit-simple-controller-manager (3.0.0-2023.04.06.15.53) jammy; urgency=high
+ .
+   * converted characters from string format to character format (#1881 <https://github.com/ros-planning/moveit2/issues/1881>)
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Use emulated time in action-based controller (#899 <https://github.com/ros-planning/moveit2/issues/899>)
+   * Fix clang-tidy issues (#1706 <https://github.com/ros-planning/moveit2/issues/1706>)
+     * Blindly apply automatic clang-tidy fixes
+     * Exemplarily cleanup a few automatic clang-tidy fixes
+     * Clang-tidy fixups
+     * Missed const-ref fixups
+     * Fix unsupported non-const -> const
+     * More fixes
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Contributors: Christian Henkel, Cory Crean, Gaël Écorchard, Robert Haschke, Sameer Gupta
+Checksums-Sha1:
+ fdd444ac2fed23d6b0e80f335bef4d10b823b411 1492926 ros-humble-moveit-simple-controller-manager-dbgsym_3.0.0-2023.04.06.15.53_amd64.ddeb
+ 0db2aaed3dc6193eae8c83cdbb6af417439470ec 27087 ros-humble-moveit-simple-controller-manager_3.0.0-2023.04.06.15.53_amd64.buildinfo
+ 0c7990c8fb2a8ab5e7e7bb790cc744c3d15b8343 99542 ros-humble-moveit-simple-controller-manager_3.0.0-2023.04.06.15.53_amd64.deb
+Checksums-Sha256:
+ 64f098d0703f112c0bdaca410027fbc0bcaf992b41b066c6d07272462f10b0eb 1492926 ros-humble-moveit-simple-controller-manager-dbgsym_3.0.0-2023.04.06.15.53_amd64.ddeb
+ 288483d5c896f6d90ffecdad2baeaae834ff0fdc3a9164292799d00e96c275ad 27087 ros-humble-moveit-simple-controller-manager_3.0.0-2023.04.06.15.53_amd64.buildinfo
+ fee32eeed1098c50b7139e70573c6e4902f4a3b761d580d377109093e54cc95b 99542 ros-humble-moveit-simple-controller-manager_3.0.0-2023.04.06.15.53_amd64.deb
+Files:
+ 13a6c6ccb8f95fc5fec1b428ec50f75f 1492926 debug optional ros-humble-moveit-simple-controller-manager-dbgsym_3.0.0-2023.04.06.15.53_amd64.ddeb
+ 1fabe2b377b1ef567fb5943d1690d225 27087 misc optional ros-humble-moveit-simple-controller-manager_3.0.0-2023.04.06.15.53_amd64.buildinfo
+ 6450c4ea7275f9a95d2ccc32cb5d63ec 99542 misc optional ros-humble-moveit-simple-controller-manager_3.0.0-2023.04.06.15.53_amd64.deb

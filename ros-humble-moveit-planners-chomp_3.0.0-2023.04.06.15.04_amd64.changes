@@ -1,0 +1,54 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-humble-moveit-planners-chomp
+Binary: ros-humble-moveit-planners-chomp
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2023.04.06.15.04
+Distribution: jammy
+Urgency: high
+Maintainer: Chittaranjan Srinivas Swaminathan <chitt@live.in>
+Changed-By: Chittaranjan Srinivas Swaminathan <chitt@live.in>
+Description:
+ ros-humble-moveit-planners-chomp - The interface for using CHOMP within MoveIt
+Changes:
+ ros-humble-moveit-planners-chomp (3.0.0-2023.04.06.15.04) jammy; urgency=high
+ .
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Remove MOVEIT_LIB_NAME (#1751 <https://github.com/ros-planning/moveit2/issues/1751>)
+     It's more readable and searchable if we just spell out the target
+     name.
+   * Use a stronger source of randomness (#1721 <https://github.com/ros-planning/moveit2/issues/1721>)
+     * Remove use of deprecated std::random_shuffle
+     * Replace random number generators with rsl::rng
+     * Utilize rsl::uniform_real
+   * Cleanup lookup of planning pipelines in MoveItCpp (#1710 <https://github.com/ros-planning/moveit2/issues/1710>)
+     * Revert "Add planner configurations to CHOMP and PILZ (#1522 <https://github.com/ros-planning/moveit2/issues/1522>)"
+     * Cleanup lookup of planning pipelines
+     Remove MoveItCpp::getPlanningPipelineNames(), which was obviously intended initially to provide a planning-group-based filter for all available planning pipelines: A pipeline was discarded for a group, if there were no planner_configs defined for that group on the parameter server.
+     As pointed out in #1522 <https://github.com/ros-planning/moveit2/issues/1522>, only OMPL actually explicitly declares planner_configs on the parameter server.
+     To enable all other pipelines as well (and thus circumventing the original filter mechanism), #1522 <https://github.com/ros-planning/moveit2/issues/1522> introduced empty dummy planner_configs for all other planners as well (CHOMP + Pilz).
+     This, obviously, renders the whole filter mechanism useless. Thus, here we just remove the function getPlanningPipelineNames() and the corresponding member groups_pipelines_map_.
+   * Fix clang-tidy issues (#1706 <https://github.com/ros-planning/moveit2/issues/1706>)
+     * Blindly apply automatic clang-tidy fixes
+     * Exemplarily cleanup a few automatic clang-tidy fixes
+     * Clang-tidy fixups
+     * Missed const-ref fixups
+     * Fix unsupported non-const -> const
+     * More fixes
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Contributors: Chris Thrasher, Christian Henkel, Robert Haschke
+Checksums-Sha1:
+ b2c826ca34a987667df5352ee1ab4eac20ecb276 4416008 ros-humble-moveit-planners-chomp-dbgsym_3.0.0-2023.04.06.15.04_amd64.ddeb
+ b1c84f8a16403d2507905b53c9c3410b76d80de0 27153 ros-humble-moveit-planners-chomp_3.0.0-2023.04.06.15.04_amd64.buildinfo
+ 203b49031018d623be5ee50638eb2289aa6d9f94 35138 ros-humble-moveit-planners-chomp_3.0.0-2023.04.06.15.04_amd64.deb
+Checksums-Sha256:
+ 4aefa45881aa278309736a3f66647ec6142eba5cf7c1a31d1f4535ee9d3f0d00 4416008 ros-humble-moveit-planners-chomp-dbgsym_3.0.0-2023.04.06.15.04_amd64.ddeb
+ 76e61eef29d855fb19b5e5c561b10b3148be70a9029600bdde2c96ceabd42e54 27153 ros-humble-moveit-planners-chomp_3.0.0-2023.04.06.15.04_amd64.buildinfo
+ 5a03b720340ed06b5fa010d60107cc8532d7f2c109d61110e501c4a44f63b06b 35138 ros-humble-moveit-planners-chomp_3.0.0-2023.04.06.15.04_amd64.deb
+Files:
+ 86c61a65b56aa9ae6f9afe908ff1fda5 4416008 debug optional ros-humble-moveit-planners-chomp-dbgsym_3.0.0-2023.04.06.15.04_amd64.ddeb
+ a38cbaa1e691fa9ee8cc38fb7f9342f7 27153 misc optional ros-humble-moveit-planners-chomp_3.0.0-2023.04.06.15.04_amd64.buildinfo
+ 5e1debfa8940be7c69c38ed6068656a3 35138 misc optional ros-humble-moveit-planners-chomp_3.0.0-2023.04.06.15.04_amd64.deb

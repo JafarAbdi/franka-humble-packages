@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-humble-moveit
+Binary: ros-humble-moveit
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2023.04.06.14.39
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit - Meta package that contains all essential packages of MoveIt 2
+Changes:
+ ros-humble-moveit (3.0.0-2023.04.06.14.39) jammy; urgency=high
+ .
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Contributors: Christian Henkel
+Checksums-Sha1:
+ 93c1ecee87bf85b857cf32c92be300cb067cc636 10776 ros-humble-moveit_3.0.0-2023.04.06.14.39_amd64.buildinfo
+ e7a5443cbf771f6f888654566aafaaa3fd284574 13010 ros-humble-moveit_3.0.0-2023.04.06.14.39_amd64.deb
+Checksums-Sha256:
+ fe6564f057838bd3aff1d8d1893e2b9884d2a027ef8027a739d9e5bf5da4d490 10776 ros-humble-moveit_3.0.0-2023.04.06.14.39_amd64.buildinfo
+ 3c26aad159d7110f25a749f95654014608c2ac56574566771e005a3a9f956da1 13010 ros-humble-moveit_3.0.0-2023.04.06.14.39_amd64.deb
+Files:
+ fc5f80727f5a5aa6b0b526be41e2fb7d 10776 misc optional ros-humble-moveit_3.0.0-2023.04.06.14.39_amd64.buildinfo
+ 99caf38baf31c65ca9bfe6c1e7e420ca 13010 misc optional ros-humble-moveit_3.0.0-2023.04.06.14.39_amd64.deb

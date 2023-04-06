@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 20 Feb 2023 00:00:00 -0000
+Source: ros-humble-force-torque-sensor-broadcaster
+Binary: ros-humble-force-torque-sensor-broadcaster
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.2.0-236-gf661907-2023.04.06.14.14
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-humble-force-torque-sensor-broadcaster - Controller to publish state of force-torque sensors.
+Changes:
+ ros-humble-force-torque-sensor-broadcaster (0.2.0-236-gf661907-2023.04.06.14.14) jammy; urgency=high
+Checksums-Sha1:
+ b9447a809a959d769f43a724d5368a7a4cc9188d 935814 ros-humble-force-torque-sensor-broadcaster-dbgsym_0.2.0-236-gf661907-2023.04.06.14.14_amd64.ddeb
+ 4e89b6f05c184cae11bf5ccfa1aeef54a6fa07ef 17712 ros-humble-force-torque-sensor-broadcaster_0.2.0-236-gf661907-2023.04.06.14.14_amd64.buildinfo
+ c70fb7399a936dace9bbeb7f1d989b6046b3d443 71956 ros-humble-force-torque-sensor-broadcaster_0.2.0-236-gf661907-2023.04.06.14.14_amd64.deb
+Checksums-Sha256:
+ 2a591b88ee2f796c2fd55914a451f44d485c6a780f754010de98e006679a5971 935814 ros-humble-force-torque-sensor-broadcaster-dbgsym_0.2.0-236-gf661907-2023.04.06.14.14_amd64.ddeb
+ 8ca5b836d02cafbb6b40a8c2c4125fc81445e226e0a9dfb491c4d8cc9efe0cde 17712 ros-humble-force-torque-sensor-broadcaster_0.2.0-236-gf661907-2023.04.06.14.14_amd64.buildinfo
+ fe340a4c150363bc7985022ab7d3cb4ae2193b037b4ba972fd085b0e089d6841 71956 ros-humble-force-torque-sensor-broadcaster_0.2.0-236-gf661907-2023.04.06.14.14_amd64.deb
+Files:
+ 681e88f9e0d9804b4bd56561a3e7ae46 935814 debug optional ros-humble-force-torque-sensor-broadcaster-dbgsym_0.2.0-236-gf661907-2023.04.06.14.14_amd64.ddeb
+ 41ee23c18ab2f4fb28b81e61f0f95f70 17712 misc optional ros-humble-force-torque-sensor-broadcaster_0.2.0-236-gf661907-2023.04.06.14.14_amd64.buildinfo
+ aa388bd041908113de9e0ec03e642395 71956 misc optional ros-humble-force-torque-sensor-broadcaster_0.2.0-236-gf661907-2023.04.06.14.14_amd64.deb

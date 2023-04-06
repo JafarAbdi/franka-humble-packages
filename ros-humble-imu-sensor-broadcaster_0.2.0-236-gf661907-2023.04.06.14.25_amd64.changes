@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 20 Feb 2023 00:00:00 -0000
+Source: ros-humble-imu-sensor-broadcaster
+Binary: ros-humble-imu-sensor-broadcaster
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.2.0-236-gf661907-2023.04.06.14.25
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-humble-imu-sensor-broadcaster - Controller to publish readings of IMU sensors.
+Changes:
+ ros-humble-imu-sensor-broadcaster (0.2.0-236-gf661907-2023.04.06.14.25) jammy; urgency=high
+Checksums-Sha1:
+ fa8c4f50abc83f90090c81ae57f1af18055c889c 955574 ros-humble-imu-sensor-broadcaster-dbgsym_0.2.0-236-gf661907-2023.04.06.14.25_amd64.ddeb
+ b2f3dea82940aa1bf5247f91bc3f314c1c47e561 19179 ros-humble-imu-sensor-broadcaster_0.2.0-236-gf661907-2023.04.06.14.25_amd64.buildinfo
+ 527b4ed985c4341bc32d7de6206a03af9d4d699d 74512 ros-humble-imu-sensor-broadcaster_0.2.0-236-gf661907-2023.04.06.14.25_amd64.deb
+Checksums-Sha256:
+ 1122619c65af35ced4be80d8315d746eb3324fdca21b7dff7e2a05fc69556ea8 955574 ros-humble-imu-sensor-broadcaster-dbgsym_0.2.0-236-gf661907-2023.04.06.14.25_amd64.ddeb
+ 6219c0c0408d77cad4be60a3f29ea77f7e17907e9398787ec260b837590d1f37 19179 ros-humble-imu-sensor-broadcaster_0.2.0-236-gf661907-2023.04.06.14.25_amd64.buildinfo
+ 158f910ddb532c4e289c0df1cfb93d8030a2a47b3321052688edc90f9d6dbec8 74512 ros-humble-imu-sensor-broadcaster_0.2.0-236-gf661907-2023.04.06.14.25_amd64.deb
+Files:
+ ef8ffe524752787e819993204bdc93f0 955574 debug optional ros-humble-imu-sensor-broadcaster-dbgsym_0.2.0-236-gf661907-2023.04.06.14.25_amd64.ddeb
+ e2e095babf0f4c69863a9c50e0281fb9 19179 misc optional ros-humble-imu-sensor-broadcaster_0.2.0-236-gf661907-2023.04.06.14.25_amd64.buildinfo
+ 7e8f329b367bfb432eed354d57e9e13a 74512 misc optional ros-humble-imu-sensor-broadcaster_0.2.0-236-gf661907-2023.04.06.14.25_amd64.deb

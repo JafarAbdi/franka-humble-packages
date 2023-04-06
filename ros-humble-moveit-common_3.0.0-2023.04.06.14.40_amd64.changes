@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-humble-moveit-common
+Binary: ros-humble-moveit-common
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2023.04.06.14.40
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-common - Common support functionality used throughout MoveIt
+Changes:
+ ros-humble-moveit-common (3.0.0-2023.04.06.14.40) jammy; urgency=high
+ .
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Enable -Wold-style-cast (#1770 <https://github.com/ros-planning/moveit2/issues/1770>)
+   * Add -Wunused-parameter (#1756 <https://github.com/ros-planning/moveit2/issues/1756>)
+   * Add -Wunused-function (#1754 <https://github.com/ros-planning/moveit2/issues/1754>)
+   * Contributors: Chris Thrasher, Christian Henkel
+Checksums-Sha1:
+ b80408d7f6003c0ff335beba256636bb791feb4c 11003 ros-humble-moveit-common_3.0.0-2023.04.06.14.40_amd64.buildinfo
+ e26ac4c46243be56058ad5efa0bd1c8c5a0f42e2 7780 ros-humble-moveit-common_3.0.0-2023.04.06.14.40_amd64.deb
+Checksums-Sha256:
+ a88f07494343ad3daea934f5731c48a71dfba85237b4f907fc9f4b810ad7e416 11003 ros-humble-moveit-common_3.0.0-2023.04.06.14.40_amd64.buildinfo
+ c0407a4d9562c3680820f9612a3e2901c8fb6af101786cf16faae5bb001b263d 7780 ros-humble-moveit-common_3.0.0-2023.04.06.14.40_amd64.deb
+Files:
+ 0c9f6f2e707d77f3fe4f0e298a0cd00b 11003 misc optional ros-humble-moveit-common_3.0.0-2023.04.06.14.40_amd64.buildinfo
+ 0c756188542ab06a7120d5591c5fdadd 7780 misc optional ros-humble-moveit-common_3.0.0-2023.04.06.14.40_amd64.deb

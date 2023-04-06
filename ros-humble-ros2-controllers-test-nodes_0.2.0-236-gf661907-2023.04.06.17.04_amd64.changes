@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Mon, 20 Feb 2023 00:00:00 -0000
+Source: ros-humble-ros2-controllers-test-nodes
+Binary: ros-humble-ros2-controllers-test-nodes
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.2.0-236-gf661907-2023.04.06.17.04
+Distribution: jammy
+Urgency: high
+Maintainer: Denis Štogl <denis@stoglrobotics.de>
+Changed-By: Denis Štogl <denis@stoglrobotics.de>
+Description:
+ ros-humble-ros2-controllers-test-nodes - Demo nodes for showing and testing functionalities of the ros2_co
+Changes:
+ ros-humble-ros2-controllers-test-nodes (0.2.0-236-gf661907-2023.04.06.17.04) jammy; urgency=high
+Checksums-Sha1:
+ 25d36a66a30061f9ccb2eb03db14867239e2e948 14269 ros-humble-ros2-controllers-test-nodes_0.2.0-236-gf661907-2023.04.06.17.04_amd64.buildinfo
+ 052fa9391de97f39c51e8f76fbeb5d68752013ab 9460 ros-humble-ros2-controllers-test-nodes_0.2.0-236-gf661907-2023.04.06.17.04_amd64.deb
+Checksums-Sha256:
+ c2d072b321ac4fd29d0b15c1d36d73f56f128de556f1c2d3b44af4946a7a2ddf 14269 ros-humble-ros2-controllers-test-nodes_0.2.0-236-gf661907-2023.04.06.17.04_amd64.buildinfo
+ 6e12d0243e628570a6799ffc3719120210c9c45bfa042378d271b556a3a30af3 9460 ros-humble-ros2-controllers-test-nodes_0.2.0-236-gf661907-2023.04.06.17.04_amd64.deb
+Files:
+ dd552146c397c3150f6c3aa1f5c0830e 14269 misc optional ros-humble-ros2-controllers-test-nodes_0.2.0-236-gf661907-2023.04.06.17.04_amd64.buildinfo
+ 4f123caf2bc650dc1e0c736e647c4c56 9460 misc optional ros-humble-ros2-controllers-test-nodes_0.2.0-236-gf661907-2023.04.06.17.04_amd64.deb

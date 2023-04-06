@@ -1,0 +1,50 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-humble-chomp-motion-planner
+Binary: ros-humble-chomp-motion-planner
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2023.04.06.15.00
+Distribution: jammy
+Urgency: high
+Maintainer: Chittaranjan Srinivas Swaminathan <chitt@live.in>
+Changed-By: Chittaranjan Srinivas Swaminathan <chitt@live.in>
+Description:
+ ros-humble-chomp-motion-planner - chomp_motion_planner
+Changes:
+ ros-humble-chomp-motion-planner (3.0.0-2023.04.06.15.00) jammy; urgency=high
+ .
+   * Merge https://github.com/ros-planning/moveit/commit/9225971216885490e933ece25390c63ca14f8a58
+   * Switch to clang-format-14 (#1877 <https://github.com/ros-planning/moveit2/issues/1877>)
+     * Switch to clang-format-14
+     * Fix clang-format-14
+   * Change log level of CHOMP runtime output and change kdl print (#1818 <https://github.com/ros-planning/moveit2/issues/1818>)
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Minimize use of this-> (#1784 <https://github.com/ros-planning/moveit2/issues/1784>)
+     It's often unnecessary. MoveIt already avoids this in most cases
+     so this PR better cements that existing pattern.
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Used C++ style cast instead of C style cast  (#1628 <https://github.com/ros-planning/moveit2/issues/1628>)
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Use a stronger source of randomness (#1721 <https://github.com/ros-planning/moveit2/issues/1721>)
+     * Remove use of deprecated std::random_shuffle
+     * Replace random number generators with rsl::rng
+     * Utilize rsl::uniform_real
+   * Fix segfaults in CHOMP (#3204 <https://github.com/ros-planning/moveit2/issues/3204>)
+     * due to missing description_
+     * in case of an unspecified input trajectory
+   * Contributors: Abhijeet Das Gupta, Abishalini, Chris Thrasher, Christian Henkel, Cory Crean, Henning Kayser, Robert Haschke, Sebastian Jahr
+Checksums-Sha1:
+ 65b62e38389397c8d1ca18dae53351c9d2df6eda 6930582 ros-humble-chomp-motion-planner-dbgsym_3.0.0-2023.04.06.15.00_amd64.ddeb
+ 00350fbb74064d0a5deaf19e2fe6454672ed1f1e 27086 ros-humble-chomp-motion-planner_3.0.0-2023.04.06.15.00_amd64.buildinfo
+ feab6c7d7a11008baebe0d6abea8e1844aaf16dd 100268 ros-humble-chomp-motion-planner_3.0.0-2023.04.06.15.00_amd64.deb
+Checksums-Sha256:
+ dd4ea2958991edcaa3d4bbae5e09c0fb7789e59880d8f3b092e84084d04e38e5 6930582 ros-humble-chomp-motion-planner-dbgsym_3.0.0-2023.04.06.15.00_amd64.ddeb
+ 8f77d593fa815ef243a7410ce2dcb9e7c7ef1374dd56a184751068f59c8ca430 27086 ros-humble-chomp-motion-planner_3.0.0-2023.04.06.15.00_amd64.buildinfo
+ 7f108f9fbf277e7b3b8fc152005fbd4d8da00198a39ebbd65e3572b7237e5a1e 100268 ros-humble-chomp-motion-planner_3.0.0-2023.04.06.15.00_amd64.deb
+Files:
+ 2774f5be33a0e839006cc35b8f4054b6 6930582 debug optional ros-humble-chomp-motion-planner-dbgsym_3.0.0-2023.04.06.15.00_amd64.ddeb
+ e5aadf3198065f992e4b9fa5735eef85 27086 misc optional ros-humble-chomp-motion-planner_3.0.0-2023.04.06.15.00_amd64.buildinfo
+ 6b113aab6692c33cacf84abebcfe187a 100268 misc optional ros-humble-chomp-motion-planner_3.0.0-2023.04.06.15.00_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 20 Feb 2023 00:00:00 -0000
+Source: ros-humble-admittance-controller
+Binary: ros-humble-admittance-controller
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.2.0-236-gf661907-2023.04.06.14.32
+Distribution: jammy
+Urgency: high
+Maintainer: Denis Štogl <denis@stogl.de>
+Changed-By: Denis Štogl <denis@stogl.de>
+Description:
+ ros-humble-admittance-controller - Implementation of admittance controllers for different input and
+Changes:
+ ros-humble-admittance-controller (0.2.0-236-gf661907-2023.04.06.14.32) jammy; urgency=high
+Checksums-Sha1:
+ 0c0147cd29f8e91a290870d05862db9ded501a59 5553668 ros-humble-admittance-controller-dbgsym_0.2.0-236-gf661907-2023.04.06.14.32_amd64.ddeb
+ b7e39f148812e866e73e0373f0de9e87bee4f994 19341 ros-humble-admittance-controller_0.2.0-236-gf661907-2023.04.06.14.32_amd64.buildinfo
+ 3834dbe0497698d965a7dddd2f40dfc7de972997 238032 ros-humble-admittance-controller_0.2.0-236-gf661907-2023.04.06.14.32_amd64.deb
+Checksums-Sha256:
+ ce9f4179b38b435d9d9a3c3cf53afa45994445c823bc066cf3ee665e51cccaaf 5553668 ros-humble-admittance-controller-dbgsym_0.2.0-236-gf661907-2023.04.06.14.32_amd64.ddeb
+ 78ee54cbed6c6aaca627b10a48a629ad936694a0c8b30d4121d53b0675a8e6ce 19341 ros-humble-admittance-controller_0.2.0-236-gf661907-2023.04.06.14.32_amd64.buildinfo
+ 13fc36bf640f2b4806f3c72e43b825a0889dcebbd091cd48be4ad46f4aab4997 238032 ros-humble-admittance-controller_0.2.0-236-gf661907-2023.04.06.14.32_amd64.deb
+Files:
+ 83f45de131e0363ae59adea75950a856 5553668 debug optional ros-humble-admittance-controller-dbgsym_0.2.0-236-gf661907-2023.04.06.14.32_amd64.ddeb
+ 77a824a8743e38b85ce4eb71f3202eaf 19341 misc optional ros-humble-admittance-controller_0.2.0-236-gf661907-2023.04.06.14.32_amd64.buildinfo
+ 7c0fefa078991706ce58ddb05874ce15 238032 misc optional ros-humble-admittance-controller_0.2.0-236-gf661907-2023.04.06.14.32_amd64.deb

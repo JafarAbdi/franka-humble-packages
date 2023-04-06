@@ -1,0 +1,48 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-humble-moveit-ros-warehouse
+Binary: ros-humble-moveit-ros-warehouse
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2023.04.06.15.46
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-ros-warehouse - Components of MoveIt connecting to MongoDB
+Changes:
+ ros-humble-moveit-ros-warehouse (3.0.0-2023.04.06.15.46) jammy; urgency=high
+ .
+   * converted characters from string format to character format (#1881 <https://github.com/ros-planning/moveit2/issues/1881>)
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Enable -Wold-style-cast (#1770 <https://github.com/ros-planning/moveit2/issues/1770>)
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Use <> for non-local headers (#1734 <https://github.com/ros-planning/moveit2/issues/1734>)
+     Unless a header lives in the same or a child directory of the file
+     including it, it's recommended to use <> for the #include statement.
+     For more information, see the C++ Core Guidelines item SF.12
+     https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#sf12-prefer-the-quoted-form-of-include-for-files-relative-to-the-including-file-and-the-angle-bracket-form-everywhere-else
+   * Fix clang-tidy issues (#1706 <https://github.com/ros-planning/moveit2/issues/1706>)
+     * Blindly apply automatic clang-tidy fixes
+     * Exemplarily cleanup a few automatic clang-tidy fixes
+     * Clang-tidy fixups
+     * Missed const-ref fixups
+     * Fix unsupported non-const -> const
+     * More fixes
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Contributors: Chris Thrasher, Christian Henkel, Cory Crean, Robert Haschke, Sameer Gupta
+Checksums-Sha1:
+ 291f842dc530f80da5cc8728904b16861024dea4 18360818 ros-humble-moveit-ros-warehouse-dbgsym_3.0.0-2023.04.06.15.46_amd64.ddeb
+ 891a22ebe1de1e9895a09afb2651651b2a103df5 27781 ros-humble-moveit-ros-warehouse_3.0.0-2023.04.06.15.46_amd64.buildinfo
+ 0573c29e1b4e217937fc4d493b68f186f89845ff 423116 ros-humble-moveit-ros-warehouse_3.0.0-2023.04.06.15.46_amd64.deb
+Checksums-Sha256:
+ f70c5f7517a1c90e8e74e9ab94961cde55a306960707ccca70a9378c177f0410 18360818 ros-humble-moveit-ros-warehouse-dbgsym_3.0.0-2023.04.06.15.46_amd64.ddeb
+ a35f8298aa8b3dc36c783a865b98e3d1f2eb86854abe1f34cc9e262e76458641 27781 ros-humble-moveit-ros-warehouse_3.0.0-2023.04.06.15.46_amd64.buildinfo
+ 264f987497c21008acd966b0cb1103669edb722b881b59953312c516999d3604 423116 ros-humble-moveit-ros-warehouse_3.0.0-2023.04.06.15.46_amd64.deb
+Files:
+ 17659d7180bbef7d3df6ce6bc87fe60f 18360818 debug optional ros-humble-moveit-ros-warehouse-dbgsym_3.0.0-2023.04.06.15.46_amd64.ddeb
+ a41b2b964bc29cb1508e7b781a0c2e26 27781 misc optional ros-humble-moveit-ros-warehouse_3.0.0-2023.04.06.15.46_amd64.buildinfo
+ 3a376ff7a0fa9ef38ff35295ec464671 423116 misc optional ros-humble-moveit-ros-warehouse_3.0.0-2023.04.06.15.46_amd64.deb

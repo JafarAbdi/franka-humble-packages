@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-humble-moveit-ros-benchmarks
+Binary: ros-humble-moveit-ros-benchmarks
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2023.04.06.15.50
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-ros-benchmarks - Enhanced tools for benchmarks in MoveIt
+Changes:
+ ros-humble-moveit-ros-benchmarks (3.0.0-2023.04.06.15.50) jammy; urgency=high
+ .
+   * converted characters from string format to character format (#1881 <https://github.com/ros-planning/moveit2/issues/1881>)
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Remove MOVEIT_LIB_NAME (#1751 <https://github.com/ros-planning/moveit2/issues/1751>)
+     It's more readable and searchable if we just spell out the target
+     name.
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Used C++ style cast instead of C style cast  (#1628 <https://github.com/ros-planning/moveit2/issues/1628>)
+     Co-authored-by: Henning Kayser <mailto:henningkayser@picknik.ai>
+   * Contributors: Abhijeet Das Gupta, Chris Thrasher, Christian Henkel, Cory Crean, Sameer Gupta
+Checksums-Sha1:
+ 78c3b62a822d59839733eb070fe76665b1f3223d 8043034 ros-humble-moveit-ros-benchmarks-dbgsym_3.0.0-2023.04.06.15.50_amd64.ddeb
+ e38533d5fb811e77f816360f22aeb61e534a0495 27848 ros-humble-moveit-ros-benchmarks_3.0.0-2023.04.06.15.50_amd64.buildinfo
+ 71334129ef1f2541dc5297bf36ccf5ed94d1a02e 209660 ros-humble-moveit-ros-benchmarks_3.0.0-2023.04.06.15.50_amd64.deb
+Checksums-Sha256:
+ 320c9750ba12de8cbac6180591e1d0be8ef9293af6a3f4c03448ac09e063f185 8043034 ros-humble-moveit-ros-benchmarks-dbgsym_3.0.0-2023.04.06.15.50_amd64.ddeb
+ 659c5b5feb6e91f0ed7ebd782f87bd77cec7bbd59b9d8f9c2b0b05483e56fd5f 27848 ros-humble-moveit-ros-benchmarks_3.0.0-2023.04.06.15.50_amd64.buildinfo
+ 829245eb1ab426ca7a12b77ab1a8f7c9c8fdf5fe33f012f1caf76fe33dd8c00d 209660 ros-humble-moveit-ros-benchmarks_3.0.0-2023.04.06.15.50_amd64.deb
+Files:
+ edda1475ae436992901bda76c1583b74 8043034 debug optional ros-humble-moveit-ros-benchmarks-dbgsym_3.0.0-2023.04.06.15.50_amd64.ddeb
+ a194e41a8d85413dc1e3e5b9bc4e1116 27848 misc optional ros-humble-moveit-ros-benchmarks_3.0.0-2023.04.06.15.50_amd64.buildinfo
+ a6e74b242526de08922a16ff678093c1 209660 misc optional ros-humble-moveit-ros-benchmarks_3.0.0-2023.04.06.15.50_amd64.deb

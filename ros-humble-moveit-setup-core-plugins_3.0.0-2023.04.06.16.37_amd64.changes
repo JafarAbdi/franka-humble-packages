@@ -1,0 +1,41 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-humble-moveit-setup-core-plugins
+Binary: ros-humble-moveit-setup-core-plugins
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2023.04.06.16.37
+Distribution: jammy
+Urgency: high
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Changed-By: David V. Lu!! <davidvlu@gmail.com>
+Description:
+ ros-humble-moveit-setup-core-plugins - Core (meta) plugins for MoveIt Setup Assistant
+Changes:
+ ros-humble-moveit-setup-core-plugins (3.0.0-2023.04.06.16.37) jammy; urgency=high
+ .
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Minimize use of this-> (#1784 <https://github.com/ros-planning/moveit2/issues/1784>)
+     It's often unnecessary. MoveIt already avoids this in most cases
+     so this PR better cements that existing pattern.
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Use <> for non-local headers (#1734 <https://github.com/ros-planning/moveit2/issues/1734>)
+     Unless a header lives in the same or a child directory of the file
+     including it, it's recommended to use <> for the #include statement.
+     For more information, see the C++ Core Guidelines item SF.12
+     https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#sf12-prefer-the-quoted-form-of-include-for-files-relative-to-the-including-file-and-the-angle-bracket-form-everywhere-else
+   * Contributors: Chris Thrasher, Christian Henkel, Cory Crean
+Checksums-Sha1:
+ 5163aab96d7d6e08699cc8f68a636f93230680df 5625834 ros-humble-moveit-setup-core-plugins-dbgsym_3.0.0-2023.04.06.16.37_amd64.ddeb
+ 8f6861ee179bf8761fc1e2d4cff7cd6ec6823cff 32909 ros-humble-moveit-setup-core-plugins_3.0.0-2023.04.06.16.37_amd64.buildinfo
+ e3c12019d487d5424cd68339e44f8c28978a28ff 61090 ros-humble-moveit-setup-core-plugins_3.0.0-2023.04.06.16.37_amd64.deb
+Checksums-Sha256:
+ 7e1be1060793483f7bddbd8d56401cf92781f23a79996cf35ec1ee61b4f1af96 5625834 ros-humble-moveit-setup-core-plugins-dbgsym_3.0.0-2023.04.06.16.37_amd64.ddeb
+ 7435890539fda26f467073aa6397dccd714992832ff75097f592f1bf316ee43e 32909 ros-humble-moveit-setup-core-plugins_3.0.0-2023.04.06.16.37_amd64.buildinfo
+ d96e9f6b58ce7e4d3a193ccae5b184cfc38ebb476e4a5f6791a18e2f54bb2976 61090 ros-humble-moveit-setup-core-plugins_3.0.0-2023.04.06.16.37_amd64.deb
+Files:
+ d3b17e39911fd3f34b035c9c635ca951 5625834 debug optional ros-humble-moveit-setup-core-plugins-dbgsym_3.0.0-2023.04.06.16.37_amd64.ddeb
+ e94ff54eb4c874bbca23cfeac275e4a4 32909 misc optional ros-humble-moveit-setup-core-plugins_3.0.0-2023.04.06.16.37_amd64.buildinfo
+ 9cb67c9132b60077222321c3cb2ece4c 61090 misc optional ros-humble-moveit-setup-core-plugins_3.0.0-2023.04.06.16.37_amd64.deb

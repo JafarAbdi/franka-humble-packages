@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 20 Feb 2023 00:00:00 -0000
+Source: ros-humble-tricycle-controller
+Binary: ros-humble-tricycle-controller
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.2.0-236-gf661907-2023.04.06.17.08
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-humble-tricycle-controller - Controller for a tricycle drive mobile base
+Changes:
+ ros-humble-tricycle-controller (0.2.0-236-gf661907-2023.04.06.17.08) jammy; urgency=high
+Checksums-Sha1:
+ 000f8e7caa6e376c9aedaa671e615426714e2937 3729684 ros-humble-tricycle-controller-dbgsym_0.2.0-236-gf661907-2023.04.06.17.08_amd64.ddeb
+ 3fcc8e14ed12530809f8851ec8e85589f35e0fd5 17187 ros-humble-tricycle-controller_0.2.0-236-gf661907-2023.04.06.17.08_amd64.buildinfo
+ 826768852908ffd381cad9d2bdda0b451c4a3150 181704 ros-humble-tricycle-controller_0.2.0-236-gf661907-2023.04.06.17.08_amd64.deb
+Checksums-Sha256:
+ f4f25436c7c5d282125aee1ba4dbc110210c4247fc2d50c54c58a04cdc2af280 3729684 ros-humble-tricycle-controller-dbgsym_0.2.0-236-gf661907-2023.04.06.17.08_amd64.ddeb
+ 92c76cd32e36a2f3c7d6067c55fc8f1508cbbb0c07f843b9df18e057cd44c132 17187 ros-humble-tricycle-controller_0.2.0-236-gf661907-2023.04.06.17.08_amd64.buildinfo
+ 989c5e35ba01af2ab606ac4dfb12c6c86048a8b93b7de9171b7aced8a59151ed 181704 ros-humble-tricycle-controller_0.2.0-236-gf661907-2023.04.06.17.08_amd64.deb
+Files:
+ 7e3c4574dd5585599ded2d967c3b3fb2 3729684 debug optional ros-humble-tricycle-controller-dbgsym_0.2.0-236-gf661907-2023.04.06.17.08_amd64.ddeb
+ 825ecb41b89e82dae0f17d830e269065 17187 misc optional ros-humble-tricycle-controller_0.2.0-236-gf661907-2023.04.06.17.08_amd64.buildinfo
+ 352929f4769dc01477bcea39e5ed4c87 181704 misc optional ros-humble-tricycle-controller_0.2.0-236-gf661907-2023.04.06.17.08_amd64.deb

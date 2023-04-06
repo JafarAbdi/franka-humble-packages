@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 20 Feb 2023 00:00:00 -0000
+Source: ros-humble-gripper-controllers
+Binary: ros-humble-gripper-controllers
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.2.0-236-gf661907-2023.04.06.14.24
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-humble-gripper-controllers - The gripper_controllers package
+Changes:
+ ros-humble-gripper-controllers (0.2.0-236-gf661907-2023.04.06.14.24) jammy; urgency=high
+Checksums-Sha1:
+ a3b122a7c2840481641f00359fe26bf579d1efc3 871532 ros-humble-gripper-controllers-dbgsym_0.2.0-236-gf661907-2023.04.06.14.24_amd64.ddeb
+ b9c0d8761d94e27a73feb8e863c8a59a4ca95527 17666 ros-humble-gripper-controllers_0.2.0-236-gf661907-2023.04.06.14.24_amd64.buildinfo
+ 261dbd31c549baa71c622a6f1416ec2f5d238fed 75192 ros-humble-gripper-controllers_0.2.0-236-gf661907-2023.04.06.14.24_amd64.deb
+Checksums-Sha256:
+ f730b7a91abeba9986a1f7ff362b56b51517d7e0be3bb3df21ddb8444c62b9c5 871532 ros-humble-gripper-controllers-dbgsym_0.2.0-236-gf661907-2023.04.06.14.24_amd64.ddeb
+ d829f346dd013247a662a054b20a3dc6957819b460fb1efd5a6c2be8551d75d9 17666 ros-humble-gripper-controllers_0.2.0-236-gf661907-2023.04.06.14.24_amd64.buildinfo
+ 75a311a006d1a9516cc8fc6c89bde9a813f41e802f7cde1429ed83acff5a8287 75192 ros-humble-gripper-controllers_0.2.0-236-gf661907-2023.04.06.14.24_amd64.deb
+Files:
+ 1427040cb333bb81dea6b859776f2fa6 871532 debug optional ros-humble-gripper-controllers-dbgsym_0.2.0-236-gf661907-2023.04.06.14.24_amd64.ddeb
+ bb50587f327e349a3f4cc9375aa99be3 17666 misc optional ros-humble-gripper-controllers_0.2.0-236-gf661907-2023.04.06.14.24_amd64.buildinfo
+ f292bc4418bd5f8e3f93b343231e66f7 75192 misc optional ros-humble-gripper-controllers_0.2.0-236-gf661907-2023.04.06.14.24_amd64.deb

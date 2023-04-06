@@ -1,0 +1,25 @@
+repositories:
+  franka_ros2:
+    type: git
+    url: https://github.com/JafarAbdi/franka_ros2.git
+    version: eb276c8ee89b6588f291e919f93f12cec95966bd
+  launch_param_builder:
+    type: git
+    url: https://github.com/JafarAbdi/launch_param_builder.git
+    version: 49a106d3701da1ad903a16b0b2f604dab233065a
+  libfranka:
+    type: git
+    url: https://github.com/JafarAbdi/libfranka-release.git
+    version: f9d57bbfa179a5cf1ca404b009be826d7a47cf95
+  moveit2:
+    type: git
+    url: https://github.com/JafarAbdi/moveit2.git
+    version: 3.0.0
+  ros2_controllers:
+    type: git
+    url: https://github.com/JafarAbdi/ros2_controllers.git
+    version: f661907afae3a35b069ca6f68a233466671938da
+  topic_based_ros2_control:
+    type: git
+    url: https://github.com/JafarAbdi/topic_based_ros2_control.git
+    version: cf58a70ee1df596e02ea1a5496f2e073ae4ddce9

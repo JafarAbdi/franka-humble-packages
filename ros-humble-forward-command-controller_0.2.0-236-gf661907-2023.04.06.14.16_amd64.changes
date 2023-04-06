@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 20 Feb 2023 00:00:00 -0000
+Source: ros-humble-forward-command-controller
+Binary: ros-humble-forward-command-controller
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.2.0-236-gf661907-2023.04.06.14.16
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-humble-forward-command-controller - Generic controller for forwarding commands.
+Changes:
+ ros-humble-forward-command-controller (0.2.0-236-gf661907-2023.04.06.14.16) jammy; urgency=high
+Checksums-Sha1:
+ 962b1beaf33b2b77d39e4a9a6941de5e17b0a523 2411834 ros-humble-forward-command-controller-dbgsym_0.2.0-236-gf661907-2023.04.06.14.16_amd64.ddeb
+ f5ed73773eb52325d27363ced8252764475e6497 17673 ros-humble-forward-command-controller_0.2.0-236-gf661907-2023.04.06.14.16_amd64.buildinfo
+ dabb5416587f6e4eeee033408bbd2ac9cb43f6c8 119352 ros-humble-forward-command-controller_0.2.0-236-gf661907-2023.04.06.14.16_amd64.deb
+Checksums-Sha256:
+ 3bec2bdcd75e2d3e494857628bd31204823dab44759f721093c0ab35997e46aa 2411834 ros-humble-forward-command-controller-dbgsym_0.2.0-236-gf661907-2023.04.06.14.16_amd64.ddeb
+ d7b7d33abb55241107e5a7b9c2a1f94dea8988536b645f55b4e6db7ea60ec80b 17673 ros-humble-forward-command-controller_0.2.0-236-gf661907-2023.04.06.14.16_amd64.buildinfo
+ f1442f4fd4ea55422c112918794c588e95ab767ef00d57ff4e7ad2ab887061a9 119352 ros-humble-forward-command-controller_0.2.0-236-gf661907-2023.04.06.14.16_amd64.deb
+Files:
+ 28571b39150885fe0662ce958da8743d 2411834 debug optional ros-humble-forward-command-controller-dbgsym_0.2.0-236-gf661907-2023.04.06.14.16_amd64.ddeb
+ 54913332b52573477507862f5d1a375c 17673 misc optional ros-humble-forward-command-controller_0.2.0-236-gf661907-2023.04.06.14.16_amd64.buildinfo
+ 4ea238b252199f7e7a60812c19270d57 119352 misc optional ros-humble-forward-command-controller_0.2.0-236-gf661907-2023.04.06.14.16_amd64.deb

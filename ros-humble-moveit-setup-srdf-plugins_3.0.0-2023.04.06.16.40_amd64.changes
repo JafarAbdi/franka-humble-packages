@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Sun, 29 Jan 2023 00:00:00 -0000
+Source: ros-humble-moveit-setup-srdf-plugins
+Binary: ros-humble-moveit-setup-srdf-plugins
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.0.0-2023.04.06.16.40
+Distribution: jammy
+Urgency: high
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Changed-By: David V. Lu!! <davidvlu@gmail.com>
+Description:
+ ros-humble-moveit-setup-srdf-plugins - SRDF-based plugins for MoveIt Setup Assistant
+Changes:
+ ros-humble-moveit-setup-srdf-plugins (3.0.0-2023.04.06.16.40) jammy; urgency=high
+ .
+   * Fix BSD license in package.xml (#1796 <https://github.com/ros-planning/moveit2/issues/1796>)
+     * fix BSD license in package.xml
+     * this must also be spdx compliant
+   * Minimize use of this-> (#1784 <https://github.com/ros-planning/moveit2/issues/1784>)
+     It's often unnecessary. MoveIt already avoids this in most cases
+     so this PR better cements that existing pattern.
+   * Enable -Wold-style-cast (#1770 <https://github.com/ros-planning/moveit2/issues/1770>)
+   * Add braces around blocks. (#999 <https://github.com/ros-planning/moveit2/issues/999>)
+   * Contributors: Chris Thrasher, Christian Henkel, Cory Crean
+Checksums-Sha1:
+ 210dc6c14c54661a067f3539622e8d6810def636 19838270 ros-humble-moveit-setup-srdf-plugins-dbgsym_3.0.0-2023.04.06.16.40_amd64.ddeb
+ 608d08dcf89153aec0b75bbe12cd6b042791a4df 32996 ros-humble-moveit-setup-srdf-plugins_3.0.0-2023.04.06.16.40_amd64.buildinfo
+ e3b97bcbb03e90f2b3482a0e8f1e49faa48ea31e 309394 ros-humble-moveit-setup-srdf-plugins_3.0.0-2023.04.06.16.40_amd64.deb
+Checksums-Sha256:
+ f15caec46470395ee3d0364b6a4dbf96d4cb08003f3ada924654f1500c8bcd1a 19838270 ros-humble-moveit-setup-srdf-plugins-dbgsym_3.0.0-2023.04.06.16.40_amd64.ddeb
+ 5e40db017bafd6c46170fb5378498e21048ddd87efc82c1398afa16a93d50925 32996 ros-humble-moveit-setup-srdf-plugins_3.0.0-2023.04.06.16.40_amd64.buildinfo
+ 891ba6cee0220a3a0dedee9c87d21ed3a59a4ac4ba5a994e0efaa6494118e198 309394 ros-humble-moveit-setup-srdf-plugins_3.0.0-2023.04.06.16.40_amd64.deb
+Files:
+ 38caca564d8a7e865d5389fcc8b6c3e8 19838270 debug optional ros-humble-moveit-setup-srdf-plugins-dbgsym_3.0.0-2023.04.06.16.40_amd64.ddeb
+ 3e14ef8cdd3626ec1029f29c9999d347 32996 misc optional ros-humble-moveit-setup-srdf-plugins_3.0.0-2023.04.06.16.40_amd64.buildinfo
+ 6a69e1636cc9753ad376310a03b15127 309394 misc optional ros-humble-moveit-setup-srdf-plugins_3.0.0-2023.04.06.16.40_amd64.deb
