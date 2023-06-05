@@ -3,11 +3,11 @@ repositories:
   ros2_controllers:
     type: git
     url: https://github.com/JafarAbdi/ros2_controllers.git
-    version: pr-jtc_fix_initial_pose
+    version: release
   franka_ros2:
     type: git
     url: https://github.com/JafarAbdi/franka_ros2.git
-    version: moveit_config_builder
+    version: release
   libfranka:
     type: git
     url: https://github.com/JafarAbdi/libfranka-release.git
@@ -15,10 +15,10 @@ repositories:
   moveit2:
     type: git
     url: https://github.com/JafarAbdi/moveit2.git
-    version: main
+    version: release
   topic_based_ros2_control:
     type: git
-    url: https://github.com/JafarAbdi/topic_based_ros2_control.git
+    url: https://github.com/PickNikRobotics/topic_based_ros2_control.git
     version: main
   launch_param_builder:
     type: git
@@ -27,8 +27,21 @@ repositories:
   universal_robots_ros2_driver:
     type: git
     url: https://github.com/JafarAbdi/Universal_Robots_ROS2_Driver.git
-    version: humble
+    version: release
   universal_robots_ros2_description:
     type: git
     url: https://github.com/JafarAbdi/Universal_Robots_ROS2_Description.git
-    version: ros2
+    version: release
+  ros2_robotiq_gripper:
+    type: git
+    url: https://github.com/JafarAbdi/ros2_robotiq_gripper.git
+    version: release
+  serial:
+    type: git
+    url: https://github.com/JafarAbdi/serial.git
+    version: release
+  azure_kinect_ros_driver:
+    type: git
+    url: https://github.com/JafarAbdi/Azure_Kinect_ROS_Driver.git
+    version: release
+
