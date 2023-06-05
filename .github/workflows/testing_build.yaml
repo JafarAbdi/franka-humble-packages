@@ -1,10 +1,10 @@
-name: stable-builder
+name: testing-builder
 
 on:
   workflow_dispatch:
   push:
     paths:
-      - 'stable/**'
+      - 'testing/**'
 
 jobs:
   build_testing:
@@ -17,4 +17,5 @@ jobs:
           ROS_DISTRO: humble
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SQUASH_HISTORY: true
-          REPOS_FILE: stable/sources.repos
+          REPOS_FILE: testing/sources.repos
+          PACKAGES_BRANCH: testing
