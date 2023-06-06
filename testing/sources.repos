@@ -16,6 +16,10 @@ repositories:
     type: git
     url: https://github.com/JafarAbdi/moveit2.git
     version: release
+  moveit_msgs:
+    type: git
+    url: https://github.com/ros-planning/moveit_msgs.git
+    version: ros2
   topic_based_ros2_control:
     type: git
     url: https://github.com/PickNikRobotics/topic_based_ros2_control.git
