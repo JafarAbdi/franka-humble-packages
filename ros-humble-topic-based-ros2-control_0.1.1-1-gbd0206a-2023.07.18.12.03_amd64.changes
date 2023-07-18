@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 09 Jun 2023 00:00:00 -0000
+Source: ros-humble-topic-based-ros2-control
+Binary: ros-humble-topic-based-ros2-control
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.1.1-1-gbd0206a-2023.07.18.12.03
+Distribution: jammy
+Urgency: high
+Maintainer: Marq Rasmussen <marq.razz@gmail.com>
+Changed-By: Marq Rasmussen <marq.razz@gmail.com>
+Description:
+ ros-humble-topic-based-ros2-control - ros2 control hardware interface for topic_based sim
+Changes:
+ ros-humble-topic-based-ros2-control (0.1.1-1-gbd0206a-2023.07.18.12.03) jammy; urgency=high
+ .
+   * colcon: fixup missing test dependency (#9 <https://github.com/PickNikRobotics/topic_based_ros2_control/issues/9>)
+     fixes ros2_control_test_assets .hpp file was not found
+     Co-authored-by: Jafar Uruç <mailto:jafar.uruc@gmail.com>
+   * Contributors: Alex Moriarty
+Checksums-Sha1:
+ 8167e7ca17f82cd874dd50e159190a7d0f0186d0 2311012 ros-humble-topic-based-ros2-control-dbgsym_0.1.1-1-gbd0206a-2023.07.18.12.03_amd64.ddeb
+ 1a47f0832ce2a673e9276b47d45965b2b7a4abca 17277 ros-humble-topic-based-ros2-control_0.1.1-1-gbd0206a-2023.07.18.12.03_amd64.buildinfo
+ dd4923ed305a8c70e961b2489e7728002909c035 123376 ros-humble-topic-based-ros2-control_0.1.1-1-gbd0206a-2023.07.18.12.03_amd64.deb
+Checksums-Sha256:
+ 671da1e2abb0d8ea27c99bad650dfb12267f08bb09802dba317bf77f52636222 2311012 ros-humble-topic-based-ros2-control-dbgsym_0.1.1-1-gbd0206a-2023.07.18.12.03_amd64.ddeb
+ b455033987789e7b8cfeeadce12e6748117f63e26993a7df460403c41e7afc15 17277 ros-humble-topic-based-ros2-control_0.1.1-1-gbd0206a-2023.07.18.12.03_amd64.buildinfo
+ fb544b2578a138423b01bf16a1abd0a82962d1e3b69ab7a29d6f523cd1e10dbd 123376 ros-humble-topic-based-ros2-control_0.1.1-1-gbd0206a-2023.07.18.12.03_amd64.deb
+Files:
+ 27a21adab19f8357482c29974cbd0d7b 2311012 debug optional ros-humble-topic-based-ros2-control-dbgsym_0.1.1-1-gbd0206a-2023.07.18.12.03_amd64.ddeb
+ 1ba6b54e7231583cc26f564589c10f1a 17277 misc optional ros-humble-topic-based-ros2-control_0.1.1-1-gbd0206a-2023.07.18.12.03_amd64.buildinfo
+ a0ea076aaa6dc019325d039668952379 123376 misc optional ros-humble-topic-based-ros2-control_0.1.1-1-gbd0206a-2023.07.18.12.03_amd64.deb

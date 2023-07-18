@@ -34,7 +34,7 @@ repositories:
   topic_based_ros2_control:
     type: git
     url: https://github.com/PickNikRobotics/topic_based_ros2_control.git
-    version: 0.1.0
+    version: bd0206a9261c24d9c0e648a49a77c62362e04490
   universal_robots_ros2_description:
     type: git
     url: https://github.com/JafarAbdi/Universal_Robots_ROS2_Description.git
