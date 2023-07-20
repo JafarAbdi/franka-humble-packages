@@ -1,9 +1,12 @@
 repositories:
-  # Use upstream repo once https://github.com/frankaemika/franka_ros2/pull/13 is merged
+  # Need to include:
+  #   - https://github.com/ros-controls/ros2_controllers/pull/558
+  #   - https://github.com/ros-controls/ros2_controllers/pull/706
   ros2_controllers:
     type: git
     url: https://github.com/JafarAbdi/ros2_controllers.git
     version: release
+  # Use upstream repo once https://github.com/frankaemika/franka_ros2/pull/13 is merged
   franka_ros2:
     type: git
     url: https://github.com/JafarAbdi/franka_ros2.git
@@ -20,22 +23,6 @@ repositories:
     type: git
     url: https://github.com/ros-planning/moveit_msgs.git
     version: ros2
-  topic_based_ros2_control:
-    type: git
-    url: https://github.com/PickNikRobotics/topic_based_ros2_control.git
-    version: main
-  launch_param_builder:
-    type: git
-    url: https://github.com/JafarAbdi/launch_param_builder.git
-    version: main
-  universal_robots_ros2_driver:
-    type: git
-    url: https://github.com/JafarAbdi/Universal_Robots_ROS2_Driver.git
-    version: release
-  universal_robots_ros2_description:
-    type: git
-    url: https://github.com/JafarAbdi/Universal_Robots_ROS2_Description.git
-    version: release
   ros2_robotiq_gripper:
     type: git
     url: https://github.com/JafarAbdi/ros2_robotiq_gripper.git
@@ -44,8 +31,3 @@ repositories:
     type: git
     url: https://github.com/JafarAbdi/serial.git
     version: release
-  # azure_kinect_ros_driver:
-  #   type: git
-  #   url: https://github.com/JafarAbdi/Azure_Kinect_ROS_Driver.git
-  #   version: release
-
