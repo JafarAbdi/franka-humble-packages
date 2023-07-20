@@ -3,10 +3,6 @@ repositories:
     type: git
     url: https://github.com/JafarAbdi/franka_ros2.git
     version: 100.0.0
-  launch_param_builder:
-    type: git
-    url: https://github.com/JafarAbdi/launch_param_builder.git
-    version: 49a106d3701da1ad903a16b0b2f604dab233065a
   libfranka:
     type: git
     url: https://github.com/JafarAbdi/libfranka-release.git
@@ -18,7 +14,7 @@ repositories:
   moveit_msgs:
     type: git
     url: https://github.com/ros-planning/moveit_msgs.git
-    version: 2.2.2
+    version: 1b3f4fd49a6847621bc1d7d81c1adfa5cdce4c90
   ros2_controllers:
     type: git
     url: https://github.com/JafarAbdi/ros2_controllers.git
@@ -30,16 +26,4 @@ repositories:
   serial:
     type: git
     url: https://github.com/JafarAbdi/serial.git
-    version: 100.0.0
-  topic_based_ros2_control:
-    type: git
-    url: https://github.com/PickNikRobotics/topic_based_ros2_control.git
-    version: bd0206a9261c24d9c0e648a49a77c62362e04490
-  universal_robots_ros2_description:
-    type: git
-    url: https://github.com/JafarAbdi/Universal_Robots_ROS2_Description.git
-    version: 100.0.0
-  universal_robots_ros2_driver:
-    type: git
-    url: https://github.com/JafarAbdi/Universal_Robots_ROS2_Driver.git
     version: 100.0.0

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 18 May 2023 00:00:00 -0000
+Source: ros-humble-moveit-ros-visualization
+Binary: ros-humble-moveit-ros-visualization
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 100.0.0-2023.07.20.17.44
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-ros-visualization - Components of MoveIt that offer visualization
+Changes:
+ ros-humble-moveit-ros-visualization (100.0.0-2023.07.20.17.44) jammy; urgency=high
+Checksums-Sha1:
+ 27b47132a9bcc0376c803ef23f48603fa6e2443e 41702608 ros-humble-moveit-ros-visualization-dbgsym_100.0.0-2023.07.20.17.44_amd64.ddeb
+ 3f1e0b7cf5263b471b51387acf52bb71d78d6ace 34034 ros-humble-moveit-ros-visualization_100.0.0-2023.07.20.17.44_amd64.buildinfo
+ b83865ace9c7b215a1fdb379998901ed9c0ed462 715390 ros-humble-moveit-ros-visualization_100.0.0-2023.07.20.17.44_amd64.deb
+Checksums-Sha256:
+ 35c40471e9099f9f6e48d14b89b9f2467930e08f8dda7810efa347a37ebd22e5 41702608 ros-humble-moveit-ros-visualization-dbgsym_100.0.0-2023.07.20.17.44_amd64.ddeb
+ 8c84d579acf9ebd2fd7661bfa60dc14570c3448a86481bb6ee2db4021792f902 34034 ros-humble-moveit-ros-visualization_100.0.0-2023.07.20.17.44_amd64.buildinfo
+ 994da318ebf7d30f611d4f8ac4c2055d7c5133e019f0bc4be0f65fbc53e708bb 715390 ros-humble-moveit-ros-visualization_100.0.0-2023.07.20.17.44_amd64.deb
+Files:
+ 60ac2fbe3c4ad472e5b246c3052791ad 41702608 debug optional ros-humble-moveit-ros-visualization-dbgsym_100.0.0-2023.07.20.17.44_amd64.ddeb
+ 11d3e22e6b6b8bd0efebad266b6a9687 34034 misc optional ros-humble-moveit-ros-visualization_100.0.0-2023.07.20.17.44_amd64.buildinfo
+ 5089f15fb3ce924c8a0722702cd96d60 715390 misc optional ros-humble-moveit-ros-visualization_100.0.0-2023.07.20.17.44_amd64.deb

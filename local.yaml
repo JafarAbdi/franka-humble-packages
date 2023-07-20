@@ -40,9 +40,6 @@ joint_trajectory_controller:
 admittance_controller:
   ubuntu:
   - ros-humble-admittance-controller
-launch_param_builder:
-  ubuntu:
-  - ros-humble-launch-param-builder
 libfranka:
   ubuntu:
   - ros-humble-libfranka
@@ -115,6 +112,9 @@ moveit_planners_ompl:
 moveit_ros_move_group:
   ubuntu:
   - ros-humble-moveit-ros-move-group
+moveit_ros_perception:
+  ubuntu:
+  - ros-humble-moveit-ros-perception
 moveit_ros_robot_interaction:
   ubuntu:
   - ros-humble-moveit-ros-robot-interaction
@@ -136,12 +136,36 @@ moveit_ros_control_interface:
 moveit_ros_planning_interface:
   ubuntu:
   - ros-humble-moveit-ros-planning-interface
+moveit_hybrid_planning:
+  ubuntu:
+  - ros-humble-moveit-hybrid-planning
 moveit_py:
   ubuntu:
   - ros-humble-moveit-py
+moveit_ros_visualization:
+  ubuntu:
+  - ros-humble-moveit-ros-visualization
 moveit_servo:
   ubuntu:
   - ros-humble-moveit-servo
+moveit_setup_framework:
+  ubuntu:
+  - ros-humble-moveit-setup-framework
+moveit_setup_app_plugins:
+  ubuntu:
+  - ros-humble-moveit-setup-app-plugins
+moveit_setup_controllers:
+  ubuntu:
+  - ros-humble-moveit-setup-controllers
+moveit_setup_core_plugins:
+  ubuntu:
+  - ros-humble-moveit-setup-core-plugins
+moveit_setup_srdf_plugins:
+  ubuntu:
+  - ros-humble-moveit-setup-srdf-plugins
+moveit_setup_assistant:
+  ubuntu:
+  - ros-humble-moveit-setup-assistant
 pilz_industrial_motion_planner_testutils:
   ubuntu:
   - ros-humble-pilz-industrial-motion-planner-testutils
@@ -172,36 +196,21 @@ robotiq_description:
 robotiq_driver:
   ubuntu:
   - ros-humble-robotiq-driver
-topic_based_ros2_control:
+steering_controllers_library:
   ubuntu:
-  - ros-humble-topic-based-ros2-control
+  - ros-humble-steering-controllers-library
+ackermann_steering_controller:
+  ubuntu:
+  - ros-humble-ackermann-steering-controller
+bicycle_steering_controller:
+  ubuntu:
+  - ros-humble-bicycle-steering-controller
 tricycle_controller:
   ubuntu:
   - ros-humble-tricycle-controller
-ur:
+tricycle_steering_controller:
   ubuntu:
-  - ros-humble-ur
-ur_bringup:
-  ubuntu:
-  - ros-humble-ur-bringup
-ur_dashboard_msgs:
-  ubuntu:
-  - ros-humble-ur-dashboard-msgs
-ur_controllers:
-  ubuntu:
-  - ros-humble-ur-controllers
-ur_description:
-  ubuntu:
-  - ros-humble-ur-description
-ur_moveit_config:
-  ubuntu:
-  - ros-humble-ur-moveit-config
-ur_robot_driver:
-  ubuntu:
-  - ros-humble-ur-robot-driver
+  - ros-humble-tricycle-steering-controller
 velocity_controllers:
   ubuntu:
   - ros-humble-velocity-controllers
-ur_calibration:
-  ubuntu:
-  - ros-humble-ur-calibration

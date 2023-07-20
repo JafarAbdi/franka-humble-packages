@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 18 May 2023 00:00:00 -0000
+Source: ros-humble-moveit-hybrid-planning
+Binary: ros-humble-moveit-hybrid-planning
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 100.0.0-2023.07.20.17.38
+Distribution: jammy
+Urgency: high
+Maintainer: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Changed-By: MoveIt Release Team <moveit_releasers@googlegroups.com>
+Description:
+ ros-humble-moveit-hybrid-planning - Hybrid planning components of MoveIt 2
+Changes:
+ ros-humble-moveit-hybrid-planning (100.0.0-2023.07.20.17.38) jammy; urgency=high
+Checksums-Sha1:
+ ba1c4ac537262579a4190c75bf89fb73cc94045f 24876822 ros-humble-moveit-hybrid-planning-dbgsym_100.0.0-2023.07.20.17.38_amd64.ddeb
+ 9774d2d44ce716a6f378b8fc9abc8dd4ed6f92ea 29959 ros-humble-moveit-hybrid-planning_100.0.0-2023.07.20.17.38_amd64.buildinfo
+ 7b74dabaf281f4b602e65c11330879b70b24c2a8 627870 ros-humble-moveit-hybrid-planning_100.0.0-2023.07.20.17.38_amd64.deb
+Checksums-Sha256:
+ 92898ce2f92030882e9483352e97435afc851c3d162c3f8908677d0ad7ba6642 24876822 ros-humble-moveit-hybrid-planning-dbgsym_100.0.0-2023.07.20.17.38_amd64.ddeb
+ 2db50501fda2bf75585c671e23d000290116c2849a85e342842d194793fd09ae 29959 ros-humble-moveit-hybrid-planning_100.0.0-2023.07.20.17.38_amd64.buildinfo
+ 58723ea123c6540025e4352da3d82943994477ef57aad7a3b341f6b56647075c 627870 ros-humble-moveit-hybrid-planning_100.0.0-2023.07.20.17.38_amd64.deb
+Files:
+ dcce07374c26027fb5b79f141e944d43 24876822 debug optional ros-humble-moveit-hybrid-planning-dbgsym_100.0.0-2023.07.20.17.38_amd64.ddeb
+ a7d0e0a3a5df9356cbdeeb96c49ec390 29959 misc optional ros-humble-moveit-hybrid-planning_100.0.0-2023.07.20.17.38_amd64.buildinfo
+ 02b0e2070c51d3e983ccdd2c0e502317 627870 misc optional ros-humble-moveit-hybrid-planning_100.0.0-2023.07.20.17.38_amd64.deb

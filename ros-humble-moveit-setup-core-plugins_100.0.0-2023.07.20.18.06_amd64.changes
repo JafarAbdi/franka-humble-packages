@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 18 May 2023 00:00:00 -0000
+Source: ros-humble-moveit-setup-core-plugins
+Binary: ros-humble-moveit-setup-core-plugins
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 100.0.0-2023.07.20.18.06
+Distribution: jammy
+Urgency: high
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Changed-By: David V. Lu!! <davidvlu@gmail.com>
+Description:
+ ros-humble-moveit-setup-core-plugins - Core (meta) plugins for MoveIt Setup Assistant
+Changes:
+ ros-humble-moveit-setup-core-plugins (100.0.0-2023.07.20.18.06) jammy; urgency=high
+Checksums-Sha1:
+ 5365053b9d6e57e68fd378a4a9dfb8213fb3b5b7 5626362 ros-humble-moveit-setup-core-plugins-dbgsym_100.0.0-2023.07.20.18.06_amd64.ddeb
+ cc22e2091a49bd949a5001fdf65d8de329062598 33092 ros-humble-moveit-setup-core-plugins_100.0.0-2023.07.20.18.06_amd64.buildinfo
+ 99d8fea26ba38d76cfdcb3e64eded3bf7ead90b0 61802 ros-humble-moveit-setup-core-plugins_100.0.0-2023.07.20.18.06_amd64.deb
+Checksums-Sha256:
+ 92b690ea6df4148bcb2c7c81d8a79f0fc2a7833a6f75fae32099745157f953bc 5626362 ros-humble-moveit-setup-core-plugins-dbgsym_100.0.0-2023.07.20.18.06_amd64.ddeb
+ a17775e12db674ca2c6ca3c4346009d5a7f88d8468db0dcebe84bb6c8ec4746d 33092 ros-humble-moveit-setup-core-plugins_100.0.0-2023.07.20.18.06_amd64.buildinfo
+ 4ba55975d45cf99a0898aea2359a5a69afd3ea8a8b9f9305b0b2efe5013358ed 61802 ros-humble-moveit-setup-core-plugins_100.0.0-2023.07.20.18.06_amd64.deb
+Files:
+ 64758e41f7fc45a2b697812a149118d8 5626362 debug optional ros-humble-moveit-setup-core-plugins-dbgsym_100.0.0-2023.07.20.18.06_amd64.ddeb
+ 4237ce282fc8449ba426ce04d01368a9 33092 misc optional ros-humble-moveit-setup-core-plugins_100.0.0-2023.07.20.18.06_amd64.buildinfo
+ a797aed085f9410cd22dd22a82bc9cbc 61802 misc optional ros-humble-moveit-setup-core-plugins_100.0.0-2023.07.20.18.06_amd64.deb
