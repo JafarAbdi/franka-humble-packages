@@ -14,11 +14,11 @@ repositories:
   moveit_msgs:
     type: git
     url: https://github.com/ros-planning/moveit_msgs.git
-    version: 1b3f4fd49a6847621bc1d7d81c1adfa5cdce4c90
+    version: 64b65e287e767e600e0240308c56aff1eb59a2fa
   ros2_controllers:
     type: git
     url: https://github.com/JafarAbdi/ros2_controllers.git
-    version: 100.0.0
+    version: 100.0.1
   ros2_robotiq_gripper:
     type: git
     url: https://github.com/JafarAbdi/ros2_robotiq_gripper.git

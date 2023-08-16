@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Fri, 12 May 2023 00:00:00 -0000
+Source: ros-humble-moveit-msgs
+Binary: ros-humble-moveit-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.2.2-10-g64b65e2-2023.08.16.11.19
+Distribution: jammy
+Urgency: high
+Maintainer: Dave Coleman <dave@dav.ee>
+Changed-By: Dave Coleman <dave@dav.ee>
+Description:
+ ros-humble-moveit-msgs - Messages, services and actions used by MoveIt
+Changes:
+ ros-humble-moveit-msgs (2.2.2-10-g64b65e2-2023.08.16.11.19) jammy; urgency=high
+ .
+   * Remove disclaimer from CollisionObject pose (#126 <https://github.com/ros-planning/moveit_msgs/issues/126>)
+   * Add fields in GetCartesianPath srv to scale velocity and acceleration (#154 <https://github.com/ros-planning/moveit_msgs/issues/154>)
+   * Fix clang-format-14 version in Format CI job (#151 <https://github.com/ros-planning/moveit_msgs/issues/151>)
+   * Switch to clang-format-14 (#150 <https://github.com/ros-planning/moveit_msgs/issues/150>)
+   * move_group: Delete unused ExecuteKnownTrajectory.srv (#149 <https://github.com/ros-planning/moveit_msgs/issues/149>)
+   * Contributors: AndyZe, Felix von Drigalski, Henning Kayser, Yadu
+Checksums-Sha1:
+ 98a1542c65d676502e9dd092c05e07bb60d3c8f0 12156958 ros-humble-moveit-msgs-dbgsym_2.2.2-10-g64b65e2-2023.08.16.11.19_amd64.ddeb
+ 83f515ef613c48f6d4effe1389a4ec36f3ae4f12 13419 ros-humble-moveit-msgs_2.2.2-10-g64b65e2-2023.08.16.11.19_amd64.buildinfo
+ 374b89219d609127abed2341c8ea067af0a34971 1027930 ros-humble-moveit-msgs_2.2.2-10-g64b65e2-2023.08.16.11.19_amd64.deb
+Checksums-Sha256:
+ f3efe6e8bd001cfc2ab960e152de67f45a8160ea87d3b584755591d70586ce9b 12156958 ros-humble-moveit-msgs-dbgsym_2.2.2-10-g64b65e2-2023.08.16.11.19_amd64.ddeb
+ c02af27254541836c24bbef57821992826496e3b69ebf80c0a7d4c4cef36d48a 13419 ros-humble-moveit-msgs_2.2.2-10-g64b65e2-2023.08.16.11.19_amd64.buildinfo
+ 99ee320e962b2f086a8de2f00772873972ca1f92dc89c8eb6836b94b85b0738f 1027930 ros-humble-moveit-msgs_2.2.2-10-g64b65e2-2023.08.16.11.19_amd64.deb
+Files:
+ fbabb9cb0d2243081f333d1e9839faa5 12156958 debug optional ros-humble-moveit-msgs-dbgsym_2.2.2-10-g64b65e2-2023.08.16.11.19_amd64.ddeb
+ b73ebafc0345f6ff45910da04799c7d6 13419 misc optional ros-humble-moveit-msgs_2.2.2-10-g64b65e2-2023.08.16.11.19_amd64.buildinfo
+ 4f46069b9a01e7dc682c68fe64be11a9 1027930 misc optional ros-humble-moveit-msgs_2.2.2-10-g64b65e2-2023.08.16.11.19_amd64.deb
