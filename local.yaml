@@ -22,15 +22,15 @@ franka_moveit_config:
 franka_msgs:
   ubuntu:
   - ros-humble-franka-msgs
-franka_example_controllers:
-  ubuntu:
-  - ros-humble-franka-example-controllers
 gripper_controllers:
   ubuntu:
   - ros-humble-gripper-controllers
 imu_sensor_broadcaster:
   ubuntu:
   - ros-humble-imu-sensor-broadcaster
+integration_launch_testing:
+  ubuntu:
+  - ros-humble-integration-launch-testing
 joint_state_broadcaster:
   ubuntu:
   - ros-humble-joint-state-broadcaster
@@ -49,6 +49,15 @@ franka_gripper:
 franka_hardware:
   ubuntu:
   - ros-humble-franka-hardware
+franka_semantic_components:
+  ubuntu:
+  - ros-humble-franka-semantic-components
+franka_example_controllers:
+  ubuntu:
+  - ros-humble-franka-example-controllers
+franka_robot_state_broadcaster:
+  ubuntu:
+  - ros-humble-franka-robot-state-broadcaster
 moveit:
   ubuntu:
   - ros-humble-moveit
