@@ -1,0 +1,48 @@
+Format: 1.8
+Date: Thu, 11 Jan 2024 00:00:00 -0000
+Source: ros-humble-moveit-msgs
+Binary: ros-humble-moveit-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.4.0-1-g0e203aa-2024.01.17.10.04
+Distribution: jammy
+Urgency: high
+Maintainer: Dave Coleman <dave@dav.ee>
+Changed-By: Dave Coleman <dave@dav.ee>
+Description:
+ ros-humble-moveit-msgs - Messages, services and actions used by MoveIt
+Changes:
+ ros-humble-moveit-msgs (2.4.0-1-g0e203aa-2024.01.17.10.04) jammy; urgency=high
+ .
+   * Add error message string to MoveItErrorCode msg (#171 <https://github.com/ros-planning/moveit_msgs/issues/171>)
+     * Add error message string to MoveItErrorCode msg
+     * Add error source string
+     * Add comments
+     * Update msg/MoveItErrorCodes.msg
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@tuta.io>
+     * Update msg/MoveItErrorCodes.msg
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+     ---------
+     Co-authored-by: Sebastian Jahr <mailto:sebastian.jahr@picknik.ai>
+   * Defined UNDEFINED (#172 <https://github.com/ros-planning/moveit_msgs/issues/172>)
+   * Add PipelineState msg
+   * Merge CI updates from branch 'master' into ros2
+   * CI: Update GHA (#166 <https://github.com/ros-planning/moveit_msgs/issues/166>)
+   * Merge CI updates from branch 'master' into ros2
+   * CI: Update .pre-commit-config.yaml (#163 <https://github.com/ros-planning/moveit_msgs/issues/163>)
+   * CI format.yml: Update GHA
+   * 0.11.4
+   * Add more MoveItErrorCodes to match all OMPL codes (#147 <https://github.com/ros-planning/moveit_msgs/issues/147>)
+   * Contributors: Abishalini Sivaraman, AndyZe, Robert Haschke, Sebastian Jahr, mosfet80
+Checksums-Sha1:
+ ba18018745634a3f767df120fbdf9f3530b2f2af 12393666 ros-humble-moveit-msgs-dbgsym_2.4.0-1-g0e203aa-2024.01.17.10.04_amd64.ddeb
+ 773d98f425aa8fd4f63caaee5ce566ab4f3e8ac5 13447 ros-humble-moveit-msgs_2.4.0-1-g0e203aa-2024.01.17.10.04_amd64.buildinfo
+ 860b98575e72ee324cb17edcb33c283c5968be79 1044668 ros-humble-moveit-msgs_2.4.0-1-g0e203aa-2024.01.17.10.04_amd64.deb
+Checksums-Sha256:
+ 8926f9b20a51822a765af9c344fe7b5ab58a9ebf15f82c3a6c94074553eeaa8b 12393666 ros-humble-moveit-msgs-dbgsym_2.4.0-1-g0e203aa-2024.01.17.10.04_amd64.ddeb
+ 19476826bb6456244e161ac9845421464750666b87b6d86bff7bd0a00bdd59c1 13447 ros-humble-moveit-msgs_2.4.0-1-g0e203aa-2024.01.17.10.04_amd64.buildinfo
+ a78f092b84e914e23ce1188c517616a17ed073315c672d521e17041f9f0be57e 1044668 ros-humble-moveit-msgs_2.4.0-1-g0e203aa-2024.01.17.10.04_amd64.deb
+Files:
+ 7ab9096bb73ddbf062eafd82bef4f55c 12393666 debug optional ros-humble-moveit-msgs-dbgsym_2.4.0-1-g0e203aa-2024.01.17.10.04_amd64.ddeb
+ a30f4d7d415560b3bfba8ced407bf5c9 13447 misc optional ros-humble-moveit-msgs_2.4.0-1-g0e203aa-2024.01.17.10.04_amd64.buildinfo
+ 9a9160dee0a3ba08e8af001ac7819154 1044668 misc optional ros-humble-moveit-msgs_2.4.0-1-g0e203aa-2024.01.17.10.04_amd64.deb
