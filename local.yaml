@@ -1,6 +1,3 @@
-controller_manager_msgs:
-  ubuntu:
-  - ros-humble-controller-manager-msgs
 franka_bringup:
   ubuntu:
   - ros-humble-franka-bringup
@@ -16,15 +13,24 @@ franka_msgs:
 integration_launch_testing:
   ubuntu:
   - ros-humble-integration-launch-testing
-joint_limits:
-  ubuntu:
-  - ros-humble-joint-limits
 libfranka:
   ubuntu:
   - ros-humble-libfranka
 franka_gripper:
   ubuntu:
   - ros-humble-franka-gripper
+franka_hardware:
+  ubuntu:
+  - ros-humble-franka-hardware
+franka_semantic_components:
+  ubuntu:
+  - ros-humble-franka-semantic-components
+franka_example_controllers:
+  ubuntu:
+  - ros-humble-franka-example-controllers
+franka_robot_state_broadcaster:
+  ubuntu:
+  - ros-humble-franka-robot-state-broadcaster
 moveit:
   ubuntu:
   - ros-humble-moveit
@@ -148,108 +154,15 @@ pilz_industrial_motion_planner_testutils:
 pilz_industrial_motion_planner:
   ubuntu:
   - ros-humble-pilz-industrial-motion-planner
-robotiq_description:
-  ubuntu:
-  - ros-humble-robotiq-description
-ros2_control:
-  ubuntu:
-  - ros-humble-ros2-control
-ros2_control_test_assets:
-  ubuntu:
-  - ros-humble-ros2-control-test-assets
-hardware_interface:
-  ubuntu:
-  - ros-humble-hardware-interface
-controller_interface:
-  ubuntu:
-  - ros-humble-controller-interface
-controller_manager:
-  ubuntu:
-  - ros-humble-controller-manager
-diff_drive_controller:
-  ubuntu:
-  - ros-humble-diff-drive-controller
-force_torque_sensor_broadcaster:
-  ubuntu:
-  - ros-humble-force-torque-sensor-broadcaster
-forward_command_controller:
-  ubuntu:
-  - ros-humble-forward-command-controller
-effort_controllers:
-  ubuntu:
-  - ros-humble-effort-controllers
-franka_hardware:
-  ubuntu:
-  - ros-humble-franka-hardware
-franka_semantic_components:
-  ubuntu:
-  - ros-humble-franka-semantic-components
-franka_example_controllers:
-  ubuntu:
-  - ros-humble-franka-example-controllers
-franka_robot_state_broadcaster:
-  ubuntu:
-  - ros-humble-franka-robot-state-broadcaster
-gripper_controllers:
-  ubuntu:
-  - ros-humble-gripper-controllers
-imu_sensor_broadcaster:
-  ubuntu:
-  - ros-humble-imu-sensor-broadcaster
-joint_state_broadcaster:
-  ubuntu:
-  - ros-humble-joint-state-broadcaster
-joint_trajectory_controller:
-  ubuntu:
-  - ros-humble-joint-trajectory-controller
-admittance_controller:
-  ubuntu:
-  - ros-humble-admittance-controller
-position_controllers:
-  ubuntu:
-  - ros-humble-position-controllers
 robotiq_controllers:
   ubuntu:
   - ros-humble-robotiq-controllers
-ros2_controllers:
+robotiq_description:
   ubuntu:
-  - ros-humble-ros2-controllers
-ros2_controllers_test_nodes:
-  ubuntu:
-  - ros-humble-ros2-controllers-test-nodes
-ros2controlcli:
-  ubuntu:
-  - ros-humble-ros2controlcli
-rqt_controller_manager:
-  ubuntu:
-  - ros-humble-rqt-controller-manager
-rqt_joint_trajectory_controller:
-  ubuntu:
-  - ros-humble-rqt-joint-trajectory-controller
+  - ros-humble-robotiq-description
 serial:
   ubuntu:
   - ros-humble-serial
 robotiq_driver:
   ubuntu:
   - ros-humble-robotiq-driver
-steering_controllers_library:
-  ubuntu:
-  - ros-humble-steering-controllers-library
-ackermann_steering_controller:
-  ubuntu:
-  - ros-humble-ackermann-steering-controller
-bicycle_steering_controller:
-  ubuntu:
-  - ros-humble-bicycle-steering-controller
-transmission_interface:
-  ubuntu:
-  - ros-humble-transmission-interface
-tricycle_controller:
-  ubuntu:
-  - ros-humble-tricycle-controller
-tricycle_steering_controller:
-  ubuntu:
-  - ros-humble-tricycle-steering-controller
-velocity_controllers:
-  ubuntu:
-  - ros-humble-velocity-controllers
