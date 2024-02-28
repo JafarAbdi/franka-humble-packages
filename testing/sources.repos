@@ -1,4 +1,8 @@
 repositories:
+  ros2_kortex:
+    type: git
+    url: https://github.com/JafarAbdi/ros2_kortex.git
+    version: release
   # Use upstream repo once https://github.com/frankaemika/franka_ros2/pull/13 is merged
   franka_ros2:
     type: git
