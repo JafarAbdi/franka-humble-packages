@@ -17,4 +17,4 @@ jobs:
           SQUASH_HISTORY: true
           REPOS_FILE: testing/sources.repos
           PACKAGES_BRANCH: testing
-          PRE_BUILD_HOOK: "sed -i 's/DISABLE_NETWORK.*/DISABLE_NETWORK => 0,/' /usr/share/perl5/Sbuild/Build.pm"
+          PRE_BUILD_HOOK: "sudo sed -i 's/DISABLE_NETWORK.*/DISABLE_NETWORK => 0,/' /usr/share/perl5/Sbuild/Build.pm"
