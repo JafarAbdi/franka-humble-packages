@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: ROS buildfarm
-        uses: jspricke/ros-deb-builder-action@main
+        uses: JafarAbdi/ros-deb-builder-action@feature/pre_build_hook
         with:
           DEB_DISTRO: jammy
           ROS_DISTRO: humble
@@ -19,3 +19,4 @@ jobs:
           SQUASH_HISTORY: true
           REPOS_FILE: testing/sources.repos
           PACKAGES_BRANCH: testing
+          PRE_BUILD_HOOK: "sudo sed -i 's/DISABLE_NETWORK.*/DISABLE_NETWORK => 0,/' /usr/share/perl5/Sbuild/Build.pm"

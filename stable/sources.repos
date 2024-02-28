@@ -1,13 +1,13 @@
 repositories:
-  # Use upstream repo once https://github.com/frankaemika/franka_ros2/pull/13 is merged
-  ros2_controllers:
+  ros2_kortex:
     type: git
-    url: https://github.com/JafarAbdi/ros2_controllers.git
-    version: pr-jtc_fix_initial_pose
+    url: https://github.com/JafarAbdi/ros2_kortex.git
+    version: release
+  # Use upstream repo once https://github.com/frankaemika/franka_ros2/pull/13 is merged
   franka_ros2:
     type: git
     url: https://github.com/JafarAbdi/franka_ros2.git
-    version: moveit_config_builder
+    version: release
   libfranka:
     type: git
     url: https://github.com/JafarAbdi/libfranka-release.git
@@ -15,20 +15,16 @@ repositories:
   moveit2:
     type: git
     url: https://github.com/JafarAbdi/moveit2.git
-    version: main
-  topic_based_ros2_control:
+    version: release
+  moveit_msgs:
     type: git
-    url: https://github.com/JafarAbdi/topic_based_ros2_control.git
-    version: main
-  launch_param_builder:
-    type: git
-    url: https://github.com/JafarAbdi/launch_param_builder.git
-    version: main
-  universal_robots_ros2_driver:
-    type: git
-    url: https://github.com/JafarAbdi/Universal_Robots_ROS2_Driver.git
-    version: humble
-  universal_robots_ros2_description:
-    type: git
-    url: https://github.com/JafarAbdi/Universal_Robots_ROS2_Description.git
+    url: https://github.com/ros-planning/moveit_msgs.git
     version: ros2
+  ros2_robotiq_gripper:
+    type: git
+    url: https://github.com/JafarAbdi/ros2_robotiq_gripper.git
+    version: release
+  serial:
+    type: git
+    url: https://github.com/JafarAbdi/serial.git
+    version: release
