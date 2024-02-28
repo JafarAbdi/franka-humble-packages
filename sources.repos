@@ -1,0 +1,29 @@
+repositories:
+  franka_ros2:
+    type: git
+    url: https://github.com/JafarAbdi/franka_ros2.git
+    version: 100.0.2
+  libfranka:
+    type: git
+    url: https://github.com/JafarAbdi/libfranka-release.git
+    version: f9d57bbfa179a5cf1ca404b009be826d7a47cf95
+  moveit2:
+    type: git
+    url: https://github.com/JafarAbdi/moveit2.git
+    version: 100.0.4
+  moveit_msgs:
+    type: git
+    url: https://github.com/ros-planning/moveit_msgs.git
+    version: 0e203aaffd1f754ab3b31110eff0eaf26e1c3599
+  ros2_kortex:
+    type: git
+    url: https://github.com/JafarAbdi/ros2_kortex.git
+    version: 100.0.0
+  ros2_robotiq_gripper:
+    type: git
+    url: https://github.com/JafarAbdi/ros2_robotiq_gripper.git
+    version: 100.0.0
+  serial:
+    type: git
+    url: https://github.com/JafarAbdi/serial.git
+    version: 100.0.0
