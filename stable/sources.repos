@@ -28,3 +28,15 @@ repositories:
     type: git
     url: https://github.com/JafarAbdi/serial.git
     version: release
+  omni_base_robot:
+    type: git
+    url: https://github.com/JafarAbdi/omni_base_robot.git
+    version: release
+  omni_base_navigation:
+    type: git
+    url: https://github.com/JafarAbdi/omni_base_navigation.git
+    version: release
+  omni_base_simulation:
+    type: git
+    url: https://github.com/JafarAbdi/omni_base_simulation.git
+    version: release
