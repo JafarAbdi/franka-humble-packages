@@ -166,6 +166,36 @@ moveit_setup_srdf_plugins:
 moveit_setup_assistant:
   ubuntu:
   - ros-humble-moveit-setup-assistant
+omni_base_2dnav:
+  ubuntu:
+  - ros-humble-omni-base-2dnav
+omni_base_bringup:
+  ubuntu:
+  - ros-humble-omni-base-bringup
+omni_base_controller_configuration:
+  ubuntu:
+  - ros-humble-omni-base-controller-configuration
+omni_base_description:
+  ubuntu:
+  - ros-humble-omni-base-description
+omni_base_gazebo:
+  ubuntu:
+  - ros-humble-omni-base-gazebo
+omni_base_laser_sensors:
+  ubuntu:
+  - ros-humble-omni-base-laser-sensors
+omni_base_maps:
+  ubuntu:
+  - ros-humble-omni-base-maps
+omni_base_navigation:
+  ubuntu:
+  - ros-humble-omni-base-navigation
+omni_base_robot:
+  ubuntu:
+  - ros-humble-omni-base-robot
+omni_base_simulation:
+  ubuntu:
+  - ros-humble-omni-base-simulation
 pilz_industrial_motion_planner_testutils:
   ubuntu:
   - ros-humble-pilz-industrial-motion-planner-testutils

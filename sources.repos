@@ -15,6 +15,18 @@ repositories:
     type: git
     url: https://github.com/ros-planning/moveit_msgs.git
     version: 0e203aaffd1f754ab3b31110eff0eaf26e1c3599
+  omni_base_navigation:
+    type: git
+    url: https://github.com/JafarAbdi/omni_base_navigation.git
+    version: 100.0.1
+  omni_base_robot:
+    type: git
+    url: https://github.com/JafarAbdi/omni_base_robot.git
+    version: 100.0.0
+  omni_base_simulation:
+    type: git
+    url: https://github.com/JafarAbdi/omni_base_simulation.git
+    version: 100.0.0
   ros2_kortex:
     type: git
     url: https://github.com/JafarAbdi/ros2_kortex.git
