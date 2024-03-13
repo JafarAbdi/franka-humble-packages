@@ -6,17 +6,26 @@ on:
     paths:
       - 'stable/**'
 
+
 jobs:
   build:
     runs-on: ubuntu-22.04
+    env:
+      SYNC_DATESTAMP: "2024-02-22"
+      ROS_DISTRO: humble
+      DEB_DISTRO: jammy
     steps:
       - name: ROS buildfarm
         uses: JafarAbdi/ros-deb-builder-action@feature/pre_build_hook
         with:
-          DEB_DISTRO: jammy
-          ROS_DISTRO: humble
+          DEB_DISTRO: ${{ env.DEB_DISTRO }}
+          ROS_DISTRO: ${{ env.ROS_DISTRO }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SKIP_ROS_REPOSITORY: true
+          SBUILD_CONF: |
+            $extra_repositories = ["deb http://snapshots.ros.org/${{ env.ROS_DISTRO }}/${{ env.SYNC_DATESTAMP }}/ubuntu ${{ env.DEB_DISTRO }} main"];
+            $extra_repository_keys = ["/home/runner/work/franka-humble-packages/franka-humble-packages/ros.key"];
           SQUASH_HISTORY: true
           REPOS_FILE: stable/sources.repos
-          PACKAGES_BRANCH: stable
+          PACKAGES_BRANCH: stable/${{ env.SYNC_DATESTAMP }}
           PRE_BUILD_HOOK: "sudo sed -i 's/DISABLE_NETWORK.*/DISABLE_NETWORK => 0,/' /usr/share/perl5/Sbuild/Build.pm"
